@@ -9596,7 +9596,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pad name="15" x="-6.35" y="43.18" drill="1.016" shape="octagon" rot="R180"/>
 <pad name="17" x="-8.89" y="43.18" drill="1.016" shape="octagon" rot="R180"/>
 <pad name="19" x="-11.43" y="43.18" drill="1.016" shape="octagon" rot="R180"/>
-<text x="12.7" y="41.91" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="13.97" y="52.07" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-12.065" y="53.848" size="1.27" layer="21" ratio="10" rot="R270">20</text>
 <text x="-9.525" y="53.975" size="1.27" layer="21" ratio="10" rot="R270">18</text>
 <text x="-6.985" y="53.975" size="1.27" layer="21" ratio="10" rot="R270">16</text>
@@ -9647,14 +9647,40 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <vertex x="12.7" y="46.355"/>
 <vertex x="-12.7" y="46.355"/>
 </polygon>
-<wire x1="-35.75" y1="0" x2="-28" y2="0" width="0" layer="248"/>
-<wire x1="-28" y1="0" x2="28" y2="0" width="0" layer="248"/>
-<wire x1="28" y1="0" x2="35.75" y2="0" width="0" layer="248"/>
+<wire x1="-35.75" y1="0" x2="-29.2" y2="0" width="0" layer="248"/>
+<wire x1="-29.2" y1="0" x2="29.2" y2="0" width="0" layer="248"/>
+<wire x1="29.2" y1="0" x2="35.75" y2="0" width="0" layer="248"/>
 <wire x1="35.75" y1="0" x2="35.75" y2="-1.5" width="0" layer="248"/>
 <wire x1="35.75" y1="-1.5" x2="-35.75" y2="-1.5" width="0" layer="248"/>
 <wire x1="-35.75" y1="-1.5" x2="-35.75" y2="0" width="0" layer="248"/>
-<wire x1="-28" y1="0" x2="-28" y2="54.5" width="0" layer="248" style="shortdash"/>
-<wire x1="28" y1="0" x2="28" y2="54.5" width="0" layer="248" style="shortdash"/>
+<wire x1="-29.2" y1="0" x2="-29.2" y2="54.5" width="0" layer="248" style="shortdash"/>
+<wire x1="29.2" y1="0" x2="29.2" y2="54.5" width="0" layer="248" style="shortdash"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="29"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="30"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="39"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="40"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="41"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="42"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="29"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="30"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="39"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="40"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="41"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="42"/>
+<wire x1="-28.95" y1="-1.67" x2="-34.55" y2="-1.67" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="-1.67" x2="-34.55" y2="-3.17" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="-3.17" x2="-28.95" y2="-3.17" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="-3.17" x2="-28.95" y2="-1.67" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="-3.17" x2="-29.845" y2="-4.07" width="0.254" layer="248" curve="-90"/>
+<wire x1="-29.845" y1="-4.07" x2="-33.655" y2="-4.07" width="0.254" layer="248"/>
+<wire x1="-33.655" y1="-4.07" x2="-34.55" y2="-3.17" width="0.254" layer="248" curve="-90"/>
+<wire x1="34.55" y1="-1.67" x2="28.95" y2="-1.67" width="0.254" layer="248"/>
+<wire x1="28.95" y1="-1.67" x2="28.95" y2="-3.17" width="0.254" layer="248"/>
+<wire x1="28.95" y1="-3.17" x2="34.55" y2="-3.17" width="0.254" layer="248"/>
+<wire x1="34.55" y1="-3.17" x2="34.55" y2="-1.67" width="0.254" layer="248"/>
+<wire x1="34.55" y1="-3.17" x2="33.655" y2="-4.07" width="0.254" layer="248" curve="-90"/>
+<wire x1="33.655" y1="-4.07" x2="29.845" y2="-4.07" width="0.254" layer="248"/>
+<wire x1="29.845" y1="-4.07" x2="28.95" y2="-3.17" width="0.254" layer="248" curve="-90"/>
 </package>
 <package name="DAUGHTER-THT">
 <wire x1="-12.7" y1="2.921" x2="-12.7" y2="0.127" width="0.1524" layer="21"/>
@@ -9718,7 +9744,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pad name="15" x="-6.35" y="6.985" drill="1.016" shape="octagon" rot="R180"/>
 <pad name="17" x="-8.89" y="6.985" drill="1.016" shape="octagon" rot="R180"/>
 <pad name="19" x="-11.43" y="6.985" drill="1.016" shape="octagon" rot="R180"/>
-<text x="12.7" y="9.525" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="13.97" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-12.065" y="2.667" size="1.27" layer="21" ratio="10" rot="R270">20</text>
 <text x="-9.525" y="2.54" size="1.27" layer="21" ratio="10" rot="R270">18</text>
 <text x="-6.985" y="2.54" size="1.27" layer="21" ratio="10" rot="R270">16</text>
@@ -9783,12 +9809,40 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="33.7" y1="44.5" x2="33.7" y2="0" width="0" layer="20"/>
 <wire x1="33.7" y1="0" x2="-33.7" y2="0" width="0" layer="20"/>
 <wire x1="-33.7" y1="0" x2="-33.7" y2="44.5" width="0" layer="20"/>
-<wire x1="-28" y1="0" x2="-28" y2="44.5" width="0" layer="248" style="shortdash"/>
-<wire x1="28" y1="0" x2="28" y2="44.5" width="0" layer="248" style="shortdash"/>
+<wire x1="-29.2" y1="0" x2="-29.2" y2="44.5" width="0" layer="248" style="shortdash"/>
+<wire x1="29.2" y1="0" x2="29.2" y2="44.5" width="0" layer="248" style="shortdash"/>
 <wire x1="-35.75" y1="46" x2="35.75" y2="46" width="0" layer="248" style="shortdash"/>
 <wire x1="35.75" y1="46" x2="35.75" y2="44.5" width="0" layer="248" style="shortdash"/>
-<wire x1="35.75" y1="44.5" x2="-35.75" y2="44.5" width="0" layer="248" style="shortdash"/>
+<wire x1="35.75" y1="44.5" x2="29.2" y2="44.5" width="0" layer="248" style="shortdash"/>
+<wire x1="29.2" y1="44.5" x2="-29.2" y2="44.5" width="0" layer="248" style="shortdash"/>
+<wire x1="-29.2" y1="44.5" x2="-35.75" y2="44.5" width="0" layer="248" style="shortdash"/>
 <wire x1="-35.75" y1="44.5" x2="-35.75" y2="46" width="0" layer="248" style="shortdash"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="29"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="30"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="39"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="40"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="41"/>
+<rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="42"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="29"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="30"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="39"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="40"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="41"/>
+<rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="42"/>
+<wire x1="28.95" y1="46.12" x2="34.55" y2="46.12" width="0.254" layer="248"/>
+<wire x1="34.55" y1="46.12" x2="34.55" y2="47.62" width="0.254" layer="248"/>
+<wire x1="34.55" y1="47.62" x2="28.95" y2="47.62" width="0.254" layer="248"/>
+<wire x1="28.95" y1="47.62" x2="28.95" y2="46.12" width="0.254" layer="248"/>
+<wire x1="28.95" y1="47.62" x2="29.845" y2="48.52" width="0.254" layer="248" curve="-90"/>
+<wire x1="29.845" y1="48.52" x2="33.655" y2="48.52" width="0.254" layer="248"/>
+<wire x1="33.655" y1="48.52" x2="34.55" y2="47.62" width="0.254" layer="248" curve="-90"/>
+<wire x1="-34.55" y1="46.12" x2="-28.95" y2="46.12" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="46.12" x2="-28.95" y2="47.62" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="47.62" x2="-34.55" y2="47.62" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="47.62" x2="-34.55" y2="46.12" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="47.62" x2="-33.655" y2="48.52" width="0.254" layer="248" curve="-90"/>
+<wire x1="-33.655" y1="48.52" x2="-29.845" y2="48.52" width="0.254" layer="248"/>
+<wire x1="-29.845" y1="48.52" x2="-28.95" y2="47.62" width="0.254" layer="248" curve="-90"/>
 </package>
 </packages>
 <symbols>
