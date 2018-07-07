@@ -16666,7 +16666,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-15.24" x2="5.08" y2="17.78" width="0.254" layer="94"/>
-<pin name="RST" x="10.16" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="RST" x="10.16" y="-12.7" length="middle" rot="R180"/>
 <text x="-7.62" y="-17.78" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="ALLSERIALSUP">
