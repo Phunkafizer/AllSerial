@@ -8,8 +8,8 @@ An universal USB-serial converter
 
 # Modules
 ## 1 Mainboard FT232
-![PCB](./PCB/1_MAIN.png | width=400)
-![Front panel](./Housing/1_Main.svg | width=400)
+![PCB](./PCB/1_MAIN.png =250x)
+![Front panel](./Housing/1_Main.svg =250x)
 * Isolated between controller and daughterboards
 * pin header for connecting logicanalyer
 
