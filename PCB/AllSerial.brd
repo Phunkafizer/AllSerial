@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4893,73 +4893,6 @@ design rules under a new name.</description>
 <wire x1="-23.26" y1="30.9" x2="-15.24" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.89" y1="45.72" x2="-23.26" y2="30.9" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$9">
-<contactref element="IC5" pad="9"/>
-<contactref element="X4" pad="1"/>
-<wire x1="5.4864" y1="154.53" x2="5.4864" y2="152.6286" width="0.254" layer="1"/>
-<wire x1="5.4864" y1="152.6286" x2="6.35" y2="151.765" width="0.254" layer="1"/>
-<via x="6.35" y="151.765" extent="1-16" drill="0.3"/>
-<wire x1="6.35" y1="151.765" x2="-1.27" y2="151.765" width="0.254" layer="16"/>
-<wire x1="-1.27" y1="151.765" x2="-1.905" y2="151.13" width="0.254" layer="16"/>
-<via x="-1.905" y="151.13" extent="1-16" drill="0.3"/>
-<wire x1="-1.905" y1="147.2692" x2="-1.905" y2="151.13" width="0.254" layer="1"/>
-</signal>
-<signal name="N$12">
-<contactref element="IC5" pad="27"/>
-<contactref element="X4" pad="2"/>
-<wire x1="6.985" y1="137.2108" x2="2.7432" y2="154.53" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$15">
-<contactref element="IC5" pad="3"/>
-<contactref element="X4" pad="3"/>
-<wire x1="0" y1="154.53" x2="0" y2="152.4" width="0.254" layer="1"/>
-<wire x1="0" y1="152.4" x2="1.27" y2="151.13" width="0.254" layer="1"/>
-<wire x1="1.27" y1="151.13" x2="4.445" y2="151.13" width="0.254" layer="1"/>
-<wire x1="4.445" y1="151.13" x2="5.715" y2="149.86" width="0.254" layer="1"/>
-<wire x1="5.715" y1="149.86" x2="5.715" y2="147.2692" width="0.254" layer="1"/>
-</signal>
-<signal name="N$16">
-<contactref element="IC5" pad="1"/>
-<contactref element="X4" pad="4"/>
-<wire x1="-2.7432" y1="154.53" x2="-2.7432" y2="151.5618" width="0.254" layer="1"/>
-<wire x1="-2.7432" y1="151.5618" x2="-3.175" y2="151.13" width="0.254" layer="1"/>
-<via x="-3.175" y="151.13" extent="1-16" drill="0.3"/>
-<wire x1="-2.7432" y1="151.5618" x2="8.255" y2="147.2692" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$17">
-<contactref element="IC5" pad="23"/>
-<contactref element="X4" pad="6"/>
-<wire x1="1.905" y1="137.2108" x2="4.1148" y2="157.07" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$18">
-<contactref element="IC5" pad="2"/>
-<contactref element="X4" pad="7"/>
-<wire x1="1.3716" y1="157.07" x2="1.3716" y2="152.2984" width="0.254" layer="1"/>
-<wire x1="1.3716" y1="152.2984" x2="1.905" y2="151.765" width="0.254" layer="1"/>
-<wire x1="1.905" y1="151.765" x2="5.08" y2="151.765" width="0.254" layer="1"/>
-<wire x1="5.08" y1="151.765" x2="6.985" y2="149.86" width="0.254" layer="1"/>
-<wire x1="6.985" y1="149.86" x2="6.985" y2="147.2692" width="0.254" layer="1"/>
-</signal>
-<signal name="N$23">
-<contactref element="IC5" pad="4"/>
-<contactref element="X4" pad="8"/>
-<wire x1="-1.3716" y1="157.07" x2="-1.3716" y2="152.5016" width="0.254" layer="1"/>
-<wire x1="-1.3716" y1="152.5016" x2="0.635" y2="150.495" width="0.254" layer="1"/>
-<wire x1="0.635" y1="150.495" x2="3.81" y2="150.495" width="0.254" layer="1"/>
-<wire x1="3.81" y1="150.495" x2="4.445" y2="149.86" width="0.254" layer="1"/>
-<wire x1="4.445" y1="147.2692" x2="4.445" y2="149.86" width="0.254" layer="1"/>
-</signal>
-<signal name="N$24">
-<contactref element="IC5" pad="18"/>
-<contactref element="X4" pad="9"/>
-<wire x1="-4.1148" y1="157.07" x2="-4.1148" y2="153.3652" width="0.254" layer="1"/>
-<wire x1="-4.1148" y1="153.3652" x2="-5.08" y2="152.4" width="0.254" layer="1"/>
-<wire x1="-4.445" y1="137.2108" x2="-4.445" y2="142.875" width="0.254" layer="1"/>
-<wire x1="-4.445" y1="142.875" x2="-5.08" y2="143.51" width="0.254" layer="1"/>
-<via x="-5.08" y="143.51" extent="1-16" drill="0.3"/>
-<wire x1="-5.08" y1="143.51" x2="-5.08" y2="152.4" width="0.254" layer="16"/>
-<via x="-5.08" y="152.4" extent="1-16" drill="0.3"/>
-</signal>
 <signal name="N$25">
 <contactref element="IC5" pad="12"/>
 <contactref element="C40" pad="2"/>
@@ -4985,8 +4918,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$28">
 <contactref element="IC5" pad="16"/>
-<contactref element="C41" pad="2"/>
-<wire x1="-6.67" y1="133.985" x2="-6.67" y2="135.575" width="0.3048" layer="1"/>
 <wire x1="-6.67" y1="135.575" x2="-6.985" y2="135.89" width="0.3048" layer="1"/>
 <wire x1="-6.985" y1="135.89" x2="-6.985" y2="137.2108" width="0.3048" layer="1"/>
 </signal>
@@ -5576,72 +5507,6 @@ design rules under a new name.</description>
 <wire x1="-46.67" y1="102.87" x2="-46.67" y2="92.71" width="0" layer="19" extent="1-1"/>
 <wire x1="-39.05" y1="25.4" x2="-8.89" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RTS3">
-<contactref element="IC5" pad="7"/>
-<contactref element="X9" pad="3"/>
-<wire x1="0.635" y1="147.2692" x2="0.635" y2="145.415" width="0.3048" layer="1"/>
-<wire x1="8.89" y1="130.81" x2="8.89" y2="139.7" width="0.3048" layer="16"/>
-<wire x1="8.89" y1="139.7" x2="0.635" y2="145.415" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="TXD3">
-<contactref element="IC5" pad="6"/>
-<contactref element="X9" pad="5"/>
-<wire x1="1.905" y1="147.2692" x2="1.905" y2="145.415" width="0.3048" layer="1"/>
-<wire x1="6.35" y1="130.81" x2="6.35" y2="139.7" width="0.3048" layer="16"/>
-<wire x1="6.35" y1="139.7" x2="1.905" y2="145.415" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="DTR3">
-<contactref element="IC5" pad="20"/>
-<contactref element="X9" pad="4"/>
-<wire x1="-1.905" y1="137.2108" x2="-1.905" y2="139.065" width="0.3048" layer="1"/>
-<wire x1="-1.905" y1="139.065" x2="-1.27" y2="139.7" width="0.3048" layer="1"/>
-<wire x1="-1.27" y1="139.7" x2="8.89" y2="139.7" width="0.3048" layer="1"/>
-<wire x1="8.89" y1="139.7" x2="10.16" y2="138.43" width="0.3048" layer="1"/>
-<wire x1="10.16" y1="138.43" x2="10.16" y2="129.54" width="0.3048" layer="1"/>
-<wire x1="10.16" y1="129.54" x2="8.89" y2="128.27" width="0.3048" layer="1"/>
-</signal>
-<signal name="DCD3">
-<contactref element="IC5" pad="8"/>
-<contactref element="X9" pad="11"/>
-<wire x1="-0.635" y1="147.2692" x2="-0.635" y2="145.415" width="0.3048" layer="1"/>
-<wire x1="-1.27" y1="130.81" x2="-1.27" y2="142.24" width="0.3048" layer="16"/>
-<wire x1="-1.27" y1="142.24" x2="-0.635" y2="142.875" width="0.3048" layer="16"/>
-<wire x1="-0.635" y1="142.875" x2="-0.635" y2="145.415" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="CTS3">
-<contactref element="IC5" pad="5"/>
-<contactref element="X9" pad="12"/>
-<wire x1="3.175" y1="147.2692" x2="3.175" y2="145.415" width="0.3048" layer="1"/>
-<wire x1="-1.27" y1="128.27" x2="0" y2="129.54" width="0.3048" layer="16"/>
-<wire x1="0" y1="129.54" x2="0" y2="139.7" width="0.3048" layer="16"/>
-<wire x1="0" y1="139.7" x2="3.175" y2="145.415" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="RXD3">
-<contactref element="IC5" pad="26"/>
-<contactref element="X9" pad="8"/>
-<wire x1="3.81" y1="128.27" x2="5.08" y2="129.54" width="0.3048" layer="1"/>
-<wire x1="5.08" y1="129.54" x2="5.08" y2="133.985" width="0.3048" layer="1"/>
-<wire x1="5.08" y1="133.985" x2="5.715" y2="134.62" width="0.3048" layer="1"/>
-<wire x1="5.715" y1="134.62" x2="5.715" y2="137.2108" width="0.3048" layer="1"/>
-</signal>
-<signal name="DSR3">
-<contactref element="IC5" pad="22"/>
-<contactref element="X9" pad="10"/>
-<wire x1="1.27" y1="128.27" x2="1.27" y2="128.905" width="0.3048" layer="1"/>
-<wire x1="1.27" y1="128.905" x2="2.54" y2="130.175" width="0.3048" layer="1"/>
-<wire x1="2.54" y1="130.175" x2="2.54" y2="132.715" width="0.3048" layer="1"/>
-<wire x1="2.54" y1="132.715" x2="0.635" y2="134.62" width="0.3048" layer="1"/>
-<wire x1="0.635" y1="137.2108" x2="0.635" y2="134.62" width="0.3048" layer="1"/>
-</signal>
-<signal name="RI3">
-<contactref element="IC5" pad="19"/>
-<contactref element="X9" pad="9"/>
-<wire x1="1.27" y1="130.81" x2="1.27" y2="132.08" width="0.3048" layer="1"/>
-<wire x1="1.27" y1="132.08" x2="-1.27" y2="134.62" width="0.3048" layer="1"/>
-<wire x1="-1.27" y1="134.62" x2="-1.905" y2="134.62" width="0.3048" layer="1"/>
-<wire x1="-1.905" y1="134.62" x2="-3.175" y2="135.89" width="0.3048" layer="1"/>
-<wire x1="-3.175" y1="135.89" x2="-3.175" y2="137.2108" width="0.3048" layer="1"/>
-</signal>
 <signal name="N$47">
 <contactref element="J1" pad="1"/>
 <contactref element="X10" pad="16"/>
@@ -5673,6 +5538,89 @@ design rules under a new name.</description>
 <contactref element="IC6" pad="1"/>
 <contactref element="X12" pad="8"/>
 <wire x1="3.81" y1="326.39" x2="-4.064" y2="351.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="X4" pad="9"/>
+<contactref element="IC5" pad="18"/>
+<wire x1="-4.445" y1="137.2108" x2="-4.1148" y2="157.07" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="X4" pad="8"/>
+<contactref element="IC5" pad="9"/>
+<wire x1="-1.905" y1="147.2692" x2="-1.3716" y2="157.07" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="X4" pad="7"/>
+<contactref element="IC5" pad="1"/>
+<wire x1="8.255" y1="147.2692" x2="1.3716" y2="157.07" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="X4" pad="6"/>
+<contactref element="IC5" pad="4"/>
+<wire x1="4.445" y1="147.2692" x2="4.1148" y2="157.07" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="X4" pad="1"/>
+<contactref element="IC5" pad="27"/>
+<wire x1="6.985" y1="137.2108" x2="5.4864" y2="154.53" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="X4" pad="2"/>
+<contactref element="IC5" pad="23"/>
+<wire x1="1.905" y1="137.2108" x2="2.7432" y2="154.53" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$23">
+<contactref element="X4" pad="3"/>
+<contactref element="IC5" pad="2"/>
+<wire x1="6.985" y1="147.2692" x2="0" y2="154.53" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$24">
+<contactref element="X4" pad="4"/>
+<contactref element="IC5" pad="3"/>
+<wire x1="5.715" y1="147.2692" x2="-2.7432" y2="154.53" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$92">
+<contactref element="C41" pad="2"/>
+</signal>
+<signal name="N$93">
+<contactref element="X9" pad="5"/>
+<contactref element="IC5" pad="7"/>
+<wire x1="6.35" y1="130.81" x2="0.635" y2="147.2692" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$94">
+<contactref element="IC5" pad="22"/>
+<contactref element="X9" pad="8"/>
+<wire x1="3.81" y1="128.27" x2="0.635" y2="137.2108" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$95">
+<contactref element="IC5" pad="20"/>
+<contactref element="X9" pad="12"/>
+<wire x1="-1.27" y1="128.27" x2="-1.905" y2="137.2108" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$96">
+<contactref element="IC5" pad="8"/>
+<contactref element="X9" pad="3"/>
+<wire x1="8.89" y1="130.81" x2="-0.635" y2="147.2692" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$97">
+<contactref element="IC5" pad="26"/>
+<contactref element="X9" pad="11"/>
+<wire x1="-1.27" y1="130.81" x2="5.715" y2="137.2108" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$98">
+<contactref element="IC5" pad="19"/>
+<contactref element="X9" pad="9"/>
+<wire x1="1.27" y1="130.81" x2="-3.175" y2="137.2108" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$99">
+<contactref element="IC5" pad="5"/>
+<contactref element="X9" pad="4"/>
+<wire x1="8.89" y1="128.27" x2="3.175" y2="147.2692" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$100">
+<contactref element="IC5" pad="6"/>
+<contactref element="X9" pad="10"/>
+<wire x1="1.27" y1="128.27" x2="1.905" y2="147.2692" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
