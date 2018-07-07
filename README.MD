@@ -8,13 +8,13 @@ An universal USB-serial converter
 
 # Modules
 ## 1 Mainboard FT232
-![PCB](./PCB/1_MAIN.png | width=600)
-![Front panel](./Housing/1_Main.svg | width=600)
+![PCB](./PCB/1_MAIN.png | width=400)
+![Front panel](./Housing/1_Main.svg | width=400)
 * Isolated between controller and daughterboards
 * pin header for connecting logicanalyer
 
 ## 2 RS422/RS485
-![PCB](./PCB/2_RS485_RS422.png | =250x50)
+![PCB](./PCB/2_RS485_RS422.png =250x50)
 ![Front panel](./Housing/2_RS422_485.svg)
 * Jumper for termination
 * Second doublepait for RS422 with handshake lines
