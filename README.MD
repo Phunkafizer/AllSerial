@@ -8,28 +8,38 @@ An universal USB-serial converter
 
 # Modules
 ## 1 Mainboard FT232
-![Alt text](./Housing/1_Main.svg)
-<img src="./Housing/1_Main.svg">
+![PCB](./PCB/1_MAIN.png)
+![Front panel](./Housing/1_Main.svg)
 * Isolated between controller and daughterboards
 * pin header for connecting logicanalyer
 
 ## 2 RS422/RS485
+![PCB](./PCB/2_RS485_RS422.png)
+![Front panel](./Housing/2_RS422_485.svg)
 * Jumper for termination
 * Second doublepait for RS422 with handshake lines
 
 ## 3 RS232
+![PCB](./PCB/3_RS232.png)
+![Front panel](./Housing/3_RS232.svg)
 * Full connection: TXD, RXD, CTS, RTS, DTR, DSR, DCD, RI
 * 9 pin Sub-D male connector
 
 ## 4 TTL
+![PCB](./PCB/4_TTL.png)
+![Front panel](./Housing/4_TTL.svg)
 * Full connection: TXD, RXD, CTS, RTS, DTR, DSR, DCD, RI
 * Selectable voltage 5 V, 3.3 V, external
 
 ## 5 Current loop (TTY)
+![PCB](./PCB/5_TTY.png)
+![Front panel](./Housing/5_TTY.svg)
 * Jumper for mode (2/3/4-wire, passiv/active)
 * Jumper for currentselection (20 mA / 40 mA)
 
 ## 6 LIN
+![PCB](./PCB/6_LIN.png)
+![Front panel](./Housing/6_LIN.svg)
 * Jumper for master
 
 # Device notes
