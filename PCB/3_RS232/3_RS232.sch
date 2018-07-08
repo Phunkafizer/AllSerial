@@ -4243,14 +4243,10 @@ Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
 <rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="30"/>
 <rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="39"/>
 <rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="40"/>
-<rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="41"/>
-<rectangle x1="-33.7" y1="0" x2="-32.45" y2="44.45" layer="42"/>
 <rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="29"/>
 <rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="30"/>
 <rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="39"/>
 <rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="40"/>
-<rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="41"/>
-<rectangle x1="32.45" y1="0" x2="33.7" y2="44.45" layer="42"/>
 <wire x1="28.95" y1="46.12" x2="34.55" y2="46.12" width="0.254" layer="248"/>
 <wire x1="34.55" y1="46.12" x2="34.55" y2="47.62" width="0.254" layer="248"/>
 <wire x1="34.55" y1="47.62" x2="28.95" y2="47.62" width="0.254" layer="248"/>
@@ -4389,14 +4385,10 @@ Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
 <rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="30"/>
 <rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="39"/>
 <rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="40"/>
-<rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="41"/>
-<rectangle x1="-33.7" y1="0" x2="-32.45" y2="54.45" layer="42"/>
 <rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="29"/>
 <rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="30"/>
 <rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="39"/>
 <rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="40"/>
-<rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="41"/>
-<rectangle x1="32.45" y1="0" x2="33.7" y2="54.45" layer="42"/>
 <wire x1="-28.95" y1="-1.67" x2="-34.55" y2="-1.67" width="0.254" layer="248"/>
 <wire x1="-34.55" y1="-1.67" x2="-34.55" y2="-3.17" width="0.254" layer="248"/>
 <wire x1="-34.55" y1="-3.17" x2="-28.95" y2="-3.17" width="0.254" layer="248"/>
