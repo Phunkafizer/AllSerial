@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -465,6 +465,25 @@
 <wire x1="-33.655" y1="48.52" x2="-29.845" y2="48.52" width="0.254" layer="248"/>
 <wire x1="-29.845" y1="48.52" x2="-28.95" y2="47.62" width="0.254" layer="248" curve="-90"/>
 </package>
+<package name="JUMPER">
+<wire x1="-1.2" y1="0" x2="-1.2" y2="3.5" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="3.5" x2="-0.75" y2="3.5" width="0.127" layer="51"/>
+<wire x1="-0.75" y1="3.5" x2="-0.75" y2="4" width="0.127" layer="51"/>
+<wire x1="-0.75" y1="4" x2="-1.2" y2="4" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="4" x2="-1.2" y2="4.5" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="0" x2="1.2" y2="0" width="0.127" layer="51"/>
+<wire x1="1.2" y1="0" x2="1.2" y2="3.5" width="0.127" layer="51"/>
+<wire x1="1.2" y1="3.5" x2="0.75" y2="3.5" width="0.127" layer="51"/>
+<wire x1="0.75" y1="3.5" x2="0.75" y2="4" width="0.127" layer="51"/>
+<wire x1="0.75" y1="4" x2="1.2" y2="4" width="0.127" layer="51"/>
+<wire x1="1.2" y1="4" x2="1.2" y2="4.5" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="4.5" x2="-0.25" y2="4.5" width="0.127" layer="51"/>
+<wire x1="-0.25" y1="4.5" x2="0.25" y2="4.5" width="0.127" layer="51"/>
+<wire x1="0.25" y1="4.5" x2="1.2" y2="4.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="9.25" x2="-0.25" y2="4.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="9.25" x2="0.25" y2="4.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="9.25" x2="0.5" y2="9.25" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ALLSERIALDATA">
@@ -498,12 +517,23 @@
 <wire x1="5.08" y1="-10.16" x2="5.08" y2="12.7" width="0.254" layer="94"/>
 <text x="-5.08" y="13.462" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
+<symbol name="ALLSERIALUSB">
+<pin name="D-" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="D+" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="VUSB" x="10.16" y="2.54" length="middle" rot="R180"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="5.842" size="1.27" layer="94">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ALLSERIAL" prefix="X">
 <gates>
 <gate name="DAT" symbol="ALLSERIALDATA" x="0" y="0"/>
-<gate name="POW" symbol="ALLSERIALSUP" x="0" y="-35.56" addlevel="always"/>
+<gate name="PWR" symbol="ALLSERIALSUP" x="0" y="-35.56" addlevel="always"/>
+<gate name="USB" symbol="ALLSERIALUSB" x="0" y="-63.5" addlevel="request"/>
 </gates>
 <devices>
 <device name="M" package="MAIN-THT">
@@ -519,12 +549,15 @@
 <connect gate="DAT" pin="RXD" pad="8"/>
 <connect gate="DAT" pin="TXD" pad="5"/>
 <connect gate="DAT" pin="TXEN" pad="1"/>
-<connect gate="POW" pin="+1.8V" pad="14"/>
-<connect gate="POW" pin="+12V" pad="20"/>
-<connect gate="POW" pin="+3.3V" pad="16"/>
-<connect gate="POW" pin="+5V" pad="18"/>
-<connect gate="POW" pin="GND" pad="19"/>
-<connect gate="POW" pin="VIN" pad="7"/>
+<connect gate="PWR" pin="+1.8V" pad="14"/>
+<connect gate="PWR" pin="+12V" pad="20"/>
+<connect gate="PWR" pin="+3.3V" pad="16"/>
+<connect gate="PWR" pin="+5V" pad="18"/>
+<connect gate="PWR" pin="GND" pad="19"/>
+<connect gate="PWR" pin="VIN" pad="7"/>
+<connect gate="USB" pin="D+" pad="15"/>
+<connect gate="USB" pin="D-" pad="17"/>
+<connect gate="USB" pin="VUSB" pad="13"/>
 </connects>
 <technologies>
 <technology name="M"/>
@@ -543,12 +576,15 @@
 <connect gate="DAT" pin="RXD" pad="8"/>
 <connect gate="DAT" pin="TXD" pad="5"/>
 <connect gate="DAT" pin="TXEN" pad="1"/>
-<connect gate="POW" pin="+1.8V" pad="14"/>
-<connect gate="POW" pin="+12V" pad="20"/>
-<connect gate="POW" pin="+3.3V" pad="16"/>
-<connect gate="POW" pin="+5V" pad="18"/>
-<connect gate="POW" pin="GND" pad="19"/>
-<connect gate="POW" pin="VIN" pad="7"/>
+<connect gate="PWR" pin="+1.8V" pad="14"/>
+<connect gate="PWR" pin="+12V" pad="20"/>
+<connect gate="PWR" pin="+3.3V" pad="16"/>
+<connect gate="PWR" pin="+5V" pad="18"/>
+<connect gate="PWR" pin="GND" pad="19"/>
+<connect gate="PWR" pin="VIN" pad="7"/>
+<connect gate="USB" pin="D+" pad="15"/>
+<connect gate="USB" pin="D-" pad="17"/>
+<connect gate="USB" pin="VUSB" pad="13"/>
 </connects>
 <technologies>
 <technology name=""/>
