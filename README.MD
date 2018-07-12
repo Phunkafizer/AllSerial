@@ -1,13 +1,14 @@
 # AllSerial
-An universal USB-serial converter
+An universal open source USB-serial converter for RS232, RS485, RS232, TTL, TTY current loop, mBus
 
 ## Features
 - Isolated
-- Reset button
+- Reset button for reenumerating device on the USB
 - Status LEDs
+- modular, just exchange daughterboard for different interfaces
 
 # Modules
-## 1 Mainboard FT232
+## 1A Mainboard FT232
 ![PCB](./1_MAIN/PCB.png)
 ![Front panel](./1_MAIN/FRONT.svg)
 * Isolated between controller and daughterboards
@@ -41,6 +42,8 @@ An universal USB-serial converter
 ![PCB](./6_LIN/PCB.png)
 ![Front panel](./6_LIN/FRONT.svg)
 * Jumper for master
+
+## 7 mBus master
 
 # Device notes
 Housing: Fischer AKG 71 24 100 ME

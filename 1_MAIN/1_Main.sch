@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -10111,9 +10111,9 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <instance part="IC7" gate="G4" x="167.64" y="48.26"/>
 <instance part="IC8" gate="G2" x="167.64" y="33.02"/>
 <instance part="IC9" gate="P" x="170.18" y="101.6"/>
-<instance part="IC9" gate="G2" x="297.18" y="175.26"/>
+<instance part="IC9" gate="G2" x="231.14" y="83.82"/>
 <instance part="IC8" gate="G4" x="167.64" y="43.18"/>
-<instance part="IC9" gate="G4" x="297.18" y="170.18"/>
+<instance part="IC9" gate="G4" x="231.14" y="78.74"/>
 <instance part="P+8" gate="1" x="144.78" y="170.18"/>
 <instance part="GND1" gate="1" x="144.78" y="147.32"/>
 <instance part="C15" gate="G$1" x="144.78" y="132.08"/>
@@ -10133,8 +10133,8 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <instance part="U$16" gate="G$1" x="104.14" y="165.1"/>
 <instance part="X14" gate="DAT" x="213.36" y="43.18" rot="MR0"/>
 <instance part="X14" gate="PWR" x="246.38" y="139.7" rot="MR0"/>
-<instance part="GND3" gate="1" x="281.94" y="165.1"/>
-<instance part="SUPPLY42" gate="G$1" x="312.42" y="165.1"/>
+<instance part="GND3" gate="1" x="215.9" y="73.66"/>
+<instance part="SUPPLY42" gate="G$1" x="246.38" y="73.66"/>
 <instance part="IC1" gate="G$1" x="91.44" y="160.02"/>
 </instances>
 <busses>
@@ -10244,8 +10244,8 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <segment>
 <pinref part="IC9" gate="G2" pin="INA"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="284.48" y1="175.26" x2="281.94" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="175.26" x2="281.94" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="83.82" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="83.82" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -10550,8 +10550,8 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <segment>
 <pinref part="IC9" gate="G4" pin="INB"/>
 <pinref part="SUPPLY42" gate="G$1" pin="GND1"/>
-<wire x1="309.88" y1="170.18" x2="312.42" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="170.18" x2="312.42" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="78.74" x2="246.38" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="78.74" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V/1" class="0">
