@@ -8,55 +8,40 @@ An universal USB-serial converter
 
 # Modules
 ## 1 Mainboard FT232
-![PCB](./PCB/1_MAIN.png)
-![Front panel](./Housing/1_Main.svg)
+![PCB](./1_MAIN/PCB.png)
+![Front panel](./1_Main/FRONT.svg)
 * Isolated between controller and daughterboards
 * pin header for connecting logicanalyer
 
 ## 2 RS422/RS485
-![PCB](./PCB/2_RS485_RS422.png)
-![Front panel](./Housing/2_RS422_485.svg)
+![PCB](./2_RS485_RS422/PCB.png)
+![Front panel](./2_RS422_485/FRONT.svg)
 * Jumper for termination
 * Second doublepait for RS422 with handshake lines
 
 ## 3 RS232
-![PCB](./PCB/3_RS232/3_RS232.png)
-![Front panel](./Housing/3_RS232.svg)
+![PCB](./3_RS232/PCB.png)
+![Front panel](./3_RS232/FRONT..svg)
 * Full connection: TXD, RXD, CTS, RTS, DTR, DSR, DCD, RI
 * 9 pin Sub-D male connector
 
 ## 4 TTL
-![PCB](./PCB/4_TTL/4_TTL.png)
-![Front panel](./Housing/4_TTL.svg)
+![PCB](./4_TTL/PCB.png)
+![Front panel](./4_TTL/FRONT.svg)
 * Full connection: TXD, RXD, CTS, RTS, DTR, DSR, DCD, RI
 * Selectable voltage 5 V, 3.3 V, external
 
 ## 5 Current loop (TTY)
 ![PCB](./PCB/5_TTY.png)
-![Front panel](./Housing/5_TTY.svg)
+![Front panel](./5_TTY/FRONT.svg)
 * Jumper for mode (2/3/4-wire, passiv/active)
 * Jumper for currentselection (20 mA / 40 mA)
 
 ## 6 LIN
 ![PCB](./PCB/6_LIN.png)
-![Front panel](./Housing/6_LIN.svg)
+![Front panel](./6_LIN/FRONT.svg)
 * Jumper for master
 
 # Device notes
-Profilgehäuse Fischer AKG 71 24 100 ME
-leds Mentor 1296.1004 Lichtleiter für 0805
-
-
-
-
-
-
-
-
-
-
-Daughterboards:
-- TTL mit 10 pol Stecker, 4 pol mit GND, 3,3, 5 und 12
-- RS232 10 pol mit 8 Daten, GND, 5 V, oder auch 4 pol?
-- RS422 / 485, Term schaltbar, Handshake wählbar
-- Current Loop, 5 pol Stecker, an Front jumperbar?
+Housing: Fischer AKG 71 24 100 ME
+Mainboard LEDs Mentor 1296.1004
