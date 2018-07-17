@@ -9,13 +9,15 @@ An universal open source USB-serial converter for RS232, RS485, RS232, TTL, TTY 
 
 # Modules
 ## 1A Mainboard FT232
-![PCB](./1_MAIN/PCB.png)
+![PCB](./1_MAIN/1_MAIN_SCHEM.png)
+![PCB](./1_MAIN/1_MAIN_BOARD.png)
 ![Front panel](./1_MAIN/FRONT.svg)
 * Isolated between controller and daughterboards
 * pin header for connecting logicanalyer
 
 ## 2 RS422/RS485
-![PCB](./2_RS485_RS422/PCB.png)
+![PCB](./2_RS485_RS422/2_RS485_RS422_SCHEM.png)
+![PCB](./2_RS485_RS422/2_RS485_RS422_BOARD.png)
 ![Front panel](./2_RS485_RS422/FRONT.svg)
 * Jumper for termination
 * Second doublepait for RS422 with handshake lines
