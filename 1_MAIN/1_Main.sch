@@ -11156,15 +11156,6 @@ Low profile connectors, straight&lt;p&gt;
 <junction x="132.08" y="76.2"/>
 </segment>
 </net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="IC10" gate="1" pin="RXD"/>
-<wire x1="83.82" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="G3" pin="OUTA"/>
-<wire x1="124.46" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="IC10" gate="1" pin="!RTS"/>
@@ -11205,15 +11196,6 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="124.46" y1="99.06" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="99.06" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
 <junction x="139.7" y="66.04"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="IC10" gate="1" pin="!DSR"/>
-<wire x1="83.82" y1="63.5" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="63.5" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="G4" pin="OUTA"/>
-<wire x1="157.48" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -11341,6 +11323,32 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="U$5" gate="G$1" pin="+1V8/1"/>
 <wire x1="236.22" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="137.16" x2="233.68" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="1" pin="RXD"/>
+<pinref part="IC9" gate="G3" pin="OUTA"/>
+<wire x1="83.82" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="99.06" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
+<junction x="96.52" y="73.66"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<wire x1="109.22" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="1" pin="!DSR"/>
+<wire x1="83.82" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="63.5" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="63.5" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="G4" pin="OUTA"/>
+<wire x1="157.48" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="96.52" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
+<junction x="99.06" y="63.5"/>
 </segment>
 </net>
 </nets>
