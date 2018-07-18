@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4247,20 +4247,23 @@ Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
 <rectangle x1="30.5" y1="0.3" x2="33.7" y2="44.75" layer="41"/>
 <rectangle x1="-33.7" y1="0.3" x2="-30.5" y2="44.75" layer="42"/>
 <rectangle x1="30.5" y1="0.3" x2="33.7" y2="44.75" layer="42"/>
-<wire x1="28.95" y1="46.42" x2="34.55" y2="46.42" width="0.254" layer="248"/>
-<wire x1="34.55" y1="46.42" x2="34.55" y2="47.92" width="0.254" layer="248"/>
-<wire x1="34.55" y1="47.92" x2="28.95" y2="47.92" width="0.254" layer="248"/>
-<wire x1="28.95" y1="47.92" x2="28.95" y2="46.42" width="0.254" layer="248"/>
-<wire x1="28.95" y1="47.92" x2="29.845" y2="48.82" width="0.254" layer="248" curve="-90"/>
-<wire x1="29.845" y1="48.82" x2="33.655" y2="48.82" width="0.254" layer="248"/>
-<wire x1="33.655" y1="48.82" x2="34.55" y2="47.92" width="0.254" layer="248" curve="-90"/>
-<wire x1="-34.55" y1="46.42" x2="-28.95" y2="46.42" width="0.254" layer="248"/>
-<wire x1="-28.95" y1="46.42" x2="-28.95" y2="47.92" width="0.254" layer="248"/>
-<wire x1="-28.95" y1="47.92" x2="-34.55" y2="47.92" width="0.254" layer="248"/>
-<wire x1="-34.55" y1="47.92" x2="-34.55" y2="46.42" width="0.254" layer="248"/>
-<wire x1="-34.55" y1="47.92" x2="-33.655" y2="48.82" width="0.254" layer="248" curve="-90"/>
-<wire x1="-33.655" y1="48.82" x2="-29.845" y2="48.82" width="0.254" layer="248"/>
-<wire x1="-29.845" y1="48.82" x2="-28.95" y2="47.92" width="0.254" layer="248" curve="-90"/>
+<wire x1="28.95" y1="46.92" x2="34.55" y2="46.92" width="0.254" layer="248"/>
+<wire x1="34.55" y1="46.92" x2="34.55" y2="48.42" width="0.254" layer="248"/>
+<wire x1="34.55" y1="48.42" x2="28.95" y2="48.42" width="0.254" layer="248"/>
+<wire x1="28.95" y1="48.42" x2="28.95" y2="46.92" width="0.254" layer="248"/>
+<wire x1="28.95" y1="48.42" x2="29.845" y2="49.32" width="0.254" layer="248" curve="-90"/>
+<wire x1="29.845" y1="49.32" x2="33.655" y2="49.32" width="0.254" layer="248"/>
+<wire x1="33.655" y1="49.32" x2="34.55" y2="48.42" width="0.254" layer="248" curve="-90"/>
+<wire x1="-34.55" y1="46.92" x2="-28.95" y2="46.92" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="46.92" x2="-28.95" y2="48.42" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="48.42" x2="-34.55" y2="48.42" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="48.42" x2="-34.55" y2="46.92" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="48.42" x2="-33.655" y2="49.32" width="0.254" layer="248" curve="-90"/>
+<wire x1="-33.655" y1="49.32" x2="-29.845" y2="49.32" width="0.254" layer="248"/>
+<wire x1="-29.845" y1="49.32" x2="-28.95" y2="48.42" width="0.254" layer="248" curve="-90"/>
+<wire x1="-35.75" y1="46.3" x2="-35.75" y2="46.8" width="0" layer="248"/>
+<wire x1="-35.75" y1="46.8" x2="35.75" y2="46.8" width="0" layer="248"/>
+<wire x1="35.75" y1="46.8" x2="35.75" y2="46.3" width="0" layer="248"/>
 </package>
 <package name="MAIN-THT">
 <description>AllSerial mainboard with female pin header</description>
@@ -4381,21 +4384,24 @@ Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
 <rectangle x1="30.5" y1="0" x2="33.7" y2="54.45" layer="41"/>
 <rectangle x1="-33.7" y1="0" x2="-30.5" y2="54.8" layer="42"/>
 <rectangle x1="30.5" y1="0" x2="33.7" y2="54.45" layer="42"/>
-<wire x1="-28.95" y1="-1.67" x2="-34.55" y2="-1.67" width="0.254" layer="248"/>
-<wire x1="-34.55" y1="-1.67" x2="-34.55" y2="-3.17" width="0.254" layer="248"/>
-<wire x1="-34.55" y1="-3.17" x2="-28.95" y2="-3.17" width="0.254" layer="248"/>
-<wire x1="-28.95" y1="-3.17" x2="-28.95" y2="-1.67" width="0.254" layer="248"/>
-<wire x1="-28.95" y1="-3.17" x2="-29.845" y2="-4.07" width="0.254" layer="248" curve="-90"/>
-<wire x1="-29.845" y1="-4.07" x2="-33.655" y2="-4.07" width="0.254" layer="248"/>
-<wire x1="-33.655" y1="-4.07" x2="-34.55" y2="-3.17" width="0.254" layer="248" curve="-90"/>
-<wire x1="34.55" y1="-1.67" x2="28.95" y2="-1.67" width="0.254" layer="248"/>
-<wire x1="28.95" y1="-1.67" x2="28.95" y2="-3.17" width="0.254" layer="248"/>
-<wire x1="28.95" y1="-3.17" x2="34.55" y2="-3.17" width="0.254" layer="248"/>
-<wire x1="34.55" y1="-3.17" x2="34.55" y2="-1.67" width="0.254" layer="248"/>
-<wire x1="34.55" y1="-3.17" x2="33.655" y2="-4.07" width="0.254" layer="248" curve="-90"/>
-<wire x1="33.655" y1="-4.07" x2="29.845" y2="-4.07" width="0.254" layer="248"/>
-<wire x1="29.845" y1="-4.07" x2="28.95" y2="-3.17" width="0.254" layer="248" curve="-90"/>
+<wire x1="-28.95" y1="-2.17" x2="-34.55" y2="-2.17" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="-2.17" x2="-34.55" y2="-3.67" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="-3.67" x2="-28.95" y2="-3.67" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="-3.67" x2="-28.95" y2="-2.17" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="-3.67" x2="-29.845" y2="-4.57" width="0.254" layer="248" curve="-90"/>
+<wire x1="-29.845" y1="-4.57" x2="-33.655" y2="-4.57" width="0.254" layer="248"/>
+<wire x1="-33.655" y1="-4.57" x2="-34.55" y2="-3.67" width="0.254" layer="248" curve="-90"/>
+<wire x1="34.55" y1="-2.17" x2="28.95" y2="-2.17" width="0.254" layer="248"/>
+<wire x1="28.95" y1="-2.17" x2="28.95" y2="-3.67" width="0.254" layer="248"/>
+<wire x1="28.95" y1="-3.67" x2="34.55" y2="-3.67" width="0.254" layer="248"/>
+<wire x1="34.55" y1="-3.67" x2="34.55" y2="-2.17" width="0.254" layer="248"/>
+<wire x1="34.55" y1="-3.67" x2="33.655" y2="-4.57" width="0.254" layer="248" curve="-90"/>
+<wire x1="33.655" y1="-4.57" x2="29.845" y2="-4.57" width="0.254" layer="248"/>
+<wire x1="29.845" y1="-4.57" x2="28.95" y2="-3.67" width="0.254" layer="248" curve="-90"/>
 <wire x1="-10.16" y1="46.185" x2="-10.16" y2="54.685" width="0.1524" layer="21"/>
+<wire x1="-35.75" y1="-1.5" x2="-35.75" y2="-2" width="0" layer="248"/>
+<wire x1="-35.75" y1="-2" x2="35.75" y2="-2" width="0" layer="248"/>
+<wire x1="35.75" y1="-2" x2="35.75" y2="-1.5" width="0" layer="248"/>
 </package>
 </packages>
 <symbols>
@@ -4569,15 +4575,31 @@ Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
 </class>
 </classes>
 <parts>
-<part name="C40" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C41" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C44" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C45" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C40" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="OC_REICHELT" value="X7R-G0805 100N"/>
+</part>
+<part name="C41" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="OC_REICHELT" value="X7R-G0805 100N"/>
+</part>
+<part name="C44" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="OC_REICHELT" value="X7R-G0805 100N"/>
+</part>
+<part name="C45" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="OC_REICHELT" value="X7R-G0805 100N"/>
+</part>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="C48" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="X4" library="con-subd" deviceset="M09HP" device=""/>
-<part name="IC5" library="maxim" deviceset="MAX211ECWI" device=""/>
-<part name="X9" library="AllSerial" deviceset="ALLSERIAL" device="D"/>
+<part name="C48" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="OC_REICHELT" value="X7R-G0805 100N"/>
+</part>
+<part name="X4" library="con-subd" deviceset="M09HP" device="">
+<attribute name="OC_REICHELT" value="D-SUB ST 09EU"/>
+</part>
+<part name="IC5" library="maxim" deviceset="MAX211ECWI" device="">
+<attribute name="OC_FARNELL" value="2519263"/>
+</part>
+<part name="X9" library="AllSerial" deviceset="ALLSERIAL" device="D">
+<attribute name="OC_REICHELT" value="SL 2X10W 2,54"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -4593,16 +4615,30 @@ Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
 <text x="218.44" y="20.32" size="1.778" layer="94">RS232</text>
 </plain>
 <instances>
-<instance part="C40" gate="G$1" x="93.98" y="116.84" rot="R90"/>
-<instance part="C41" gate="G$1" x="96.52" y="106.68" rot="R270"/>
-<instance part="C44" gate="G$1" x="142.24" y="114.3" rot="R180"/>
-<instance part="C45" gate="G$1" x="142.24" y="104.14" rot="R90"/>
+<instance part="C40" gate="G$1" x="93.98" y="116.84" rot="R90">
+<attribute name="OC_REICHELT" x="93.98" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C41" gate="G$1" x="96.52" y="106.68" rot="R270">
+<attribute name="OC_REICHELT" x="96.52" y="106.68" size="1.778" layer="96"/>
+</instance>
+<instance part="C44" gate="G$1" x="142.24" y="114.3" rot="R180">
+<attribute name="OC_REICHELT" x="142.24" y="114.3" size="1.778" layer="96"/>
+</instance>
+<instance part="C45" gate="G$1" x="142.24" y="104.14" rot="R90">
+<attribute name="OC_REICHELT" x="142.24" y="104.14" size="1.778" layer="96"/>
+</instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="C48" gate="G$1" x="71.12" y="142.24"/>
-<instance part="X4" gate="G$1" x="187.96" y="76.2" rot="R90"/>
+<instance part="C48" gate="G$1" x="71.12" y="142.24">
+<attribute name="OC_REICHELT" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="X4" gate="G$1" x="187.96" y="76.2" rot="R90">
+<attribute name="OC_REICHELT" x="187.96" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="IC5" gate="G$1" x="121.92" y="93.98"/>
 <instance part="IC5" gate="P" x="60.96" y="139.7"/>
-<instance part="X9" gate="DAT" x="45.72" y="81.28"/>
+<instance part="X9" gate="DAT" x="45.72" y="81.28">
+<attribute name="OC_REICHELT" x="45.72" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X9" gate="PWR" x="30.48" y="139.7"/>
 <instance part="GND1" gate="1" x="30.48" y="119.38"/>
 <instance part="GND2" gate="1" x="104.14" y="63.5"/>
