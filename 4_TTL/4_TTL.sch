@@ -660,20 +660,23 @@ W = angled&lt;p&gt;
 <rectangle x1="30.5" y1="0.3" x2="33.7" y2="44.75" layer="41"/>
 <rectangle x1="-33.7" y1="0.3" x2="-30.5" y2="44.75" layer="42"/>
 <rectangle x1="30.5" y1="0.3" x2="33.7" y2="44.75" layer="42"/>
-<wire x1="28.95" y1="46.42" x2="34.55" y2="46.42" width="0.254" layer="248"/>
-<wire x1="34.55" y1="46.42" x2="34.55" y2="47.92" width="0.254" layer="248"/>
-<wire x1="34.55" y1="47.92" x2="28.95" y2="47.92" width="0.254" layer="248"/>
-<wire x1="28.95" y1="47.92" x2="28.95" y2="46.42" width="0.254" layer="248"/>
-<wire x1="28.95" y1="47.92" x2="29.845" y2="48.82" width="0.254" layer="248" curve="-90"/>
-<wire x1="29.845" y1="48.82" x2="33.655" y2="48.82" width="0.254" layer="248"/>
-<wire x1="33.655" y1="48.82" x2="34.55" y2="47.92" width="0.254" layer="248" curve="-90"/>
-<wire x1="-34.55" y1="46.42" x2="-28.95" y2="46.42" width="0.254" layer="248"/>
-<wire x1="-28.95" y1="46.42" x2="-28.95" y2="47.92" width="0.254" layer="248"/>
-<wire x1="-28.95" y1="47.92" x2="-34.55" y2="47.92" width="0.254" layer="248"/>
-<wire x1="-34.55" y1="47.92" x2="-34.55" y2="46.42" width="0.254" layer="248"/>
-<wire x1="-34.55" y1="47.92" x2="-33.655" y2="48.82" width="0.254" layer="248" curve="-90"/>
-<wire x1="-33.655" y1="48.82" x2="-29.845" y2="48.82" width="0.254" layer="248"/>
-<wire x1="-29.845" y1="48.82" x2="-28.95" y2="47.92" width="0.254" layer="248" curve="-90"/>
+<wire x1="28.95" y1="46.92" x2="34.55" y2="46.92" width="0.254" layer="248"/>
+<wire x1="34.55" y1="46.92" x2="34.55" y2="48.42" width="0.254" layer="248"/>
+<wire x1="34.55" y1="48.42" x2="28.95" y2="48.42" width="0.254" layer="248"/>
+<wire x1="28.95" y1="48.42" x2="28.95" y2="46.92" width="0.254" layer="248"/>
+<wire x1="28.95" y1="48.42" x2="29.845" y2="49.32" width="0.254" layer="248" curve="-90"/>
+<wire x1="29.845" y1="49.32" x2="33.655" y2="49.32" width="0.254" layer="248"/>
+<wire x1="33.655" y1="49.32" x2="34.55" y2="48.42" width="0.254" layer="248" curve="-90"/>
+<wire x1="-34.55" y1="46.92" x2="-28.95" y2="46.92" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="46.92" x2="-28.95" y2="48.42" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="48.42" x2="-34.55" y2="48.42" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="48.42" x2="-34.55" y2="46.92" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="48.42" x2="-33.655" y2="49.32" width="0.254" layer="248" curve="-90"/>
+<wire x1="-33.655" y1="49.32" x2="-29.845" y2="49.32" width="0.254" layer="248"/>
+<wire x1="-29.845" y1="49.32" x2="-28.95" y2="48.42" width="0.254" layer="248" curve="-90"/>
+<wire x1="-35.75" y1="46.3" x2="-35.75" y2="46.8" width="0" layer="248"/>
+<wire x1="-35.75" y1="46.8" x2="35.75" y2="46.8" width="0" layer="248"/>
+<wire x1="35.75" y1="46.8" x2="35.75" y2="46.3" width="0" layer="248"/>
 </package>
 <package name="MAIN-THT">
 <description>AllSerial mainboard with female pin header</description>
@@ -794,21 +797,24 @@ W = angled&lt;p&gt;
 <rectangle x1="30.5" y1="0" x2="33.7" y2="54.45" layer="41"/>
 <rectangle x1="-33.7" y1="0" x2="-30.5" y2="54.8" layer="42"/>
 <rectangle x1="30.5" y1="0" x2="33.7" y2="54.45" layer="42"/>
-<wire x1="-28.95" y1="-1.67" x2="-34.55" y2="-1.67" width="0.254" layer="248"/>
-<wire x1="-34.55" y1="-1.67" x2="-34.55" y2="-3.17" width="0.254" layer="248"/>
-<wire x1="-34.55" y1="-3.17" x2="-28.95" y2="-3.17" width="0.254" layer="248"/>
-<wire x1="-28.95" y1="-3.17" x2="-28.95" y2="-1.67" width="0.254" layer="248"/>
-<wire x1="-28.95" y1="-3.17" x2="-29.845" y2="-4.07" width="0.254" layer="248" curve="-90"/>
-<wire x1="-29.845" y1="-4.07" x2="-33.655" y2="-4.07" width="0.254" layer="248"/>
-<wire x1="-33.655" y1="-4.07" x2="-34.55" y2="-3.17" width="0.254" layer="248" curve="-90"/>
-<wire x1="34.55" y1="-1.67" x2="28.95" y2="-1.67" width="0.254" layer="248"/>
-<wire x1="28.95" y1="-1.67" x2="28.95" y2="-3.17" width="0.254" layer="248"/>
-<wire x1="28.95" y1="-3.17" x2="34.55" y2="-3.17" width="0.254" layer="248"/>
-<wire x1="34.55" y1="-3.17" x2="34.55" y2="-1.67" width="0.254" layer="248"/>
-<wire x1="34.55" y1="-3.17" x2="33.655" y2="-4.07" width="0.254" layer="248" curve="-90"/>
-<wire x1="33.655" y1="-4.07" x2="29.845" y2="-4.07" width="0.254" layer="248"/>
-<wire x1="29.845" y1="-4.07" x2="28.95" y2="-3.17" width="0.254" layer="248" curve="-90"/>
+<wire x1="-28.95" y1="-2.17" x2="-34.55" y2="-2.17" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="-2.17" x2="-34.55" y2="-3.67" width="0.254" layer="248"/>
+<wire x1="-34.55" y1="-3.67" x2="-28.95" y2="-3.67" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="-3.67" x2="-28.95" y2="-2.17" width="0.254" layer="248"/>
+<wire x1="-28.95" y1="-3.67" x2="-29.845" y2="-4.57" width="0.254" layer="248" curve="-90"/>
+<wire x1="-29.845" y1="-4.57" x2="-33.655" y2="-4.57" width="0.254" layer="248"/>
+<wire x1="-33.655" y1="-4.57" x2="-34.55" y2="-3.67" width="0.254" layer="248" curve="-90"/>
+<wire x1="34.55" y1="-2.17" x2="28.95" y2="-2.17" width="0.254" layer="248"/>
+<wire x1="28.95" y1="-2.17" x2="28.95" y2="-3.67" width="0.254" layer="248"/>
+<wire x1="28.95" y1="-3.67" x2="34.55" y2="-3.67" width="0.254" layer="248"/>
+<wire x1="34.55" y1="-3.67" x2="34.55" y2="-2.17" width="0.254" layer="248"/>
+<wire x1="34.55" y1="-3.67" x2="33.655" y2="-4.57" width="0.254" layer="248" curve="-90"/>
+<wire x1="33.655" y1="-4.57" x2="29.845" y2="-4.57" width="0.254" layer="248"/>
+<wire x1="29.845" y1="-4.57" x2="28.95" y2="-3.67" width="0.254" layer="248" curve="-90"/>
 <wire x1="-10.16" y1="46.185" x2="-10.16" y2="54.685" width="0.1524" layer="21"/>
+<wire x1="-35.75" y1="-1.5" x2="-35.75" y2="-2" width="0" layer="248"/>
+<wire x1="-35.75" y1="-2" x2="35.75" y2="-2" width="0" layer="248"/>
+<wire x1="35.75" y1="-2" x2="35.75" y2="-1.5" width="0" layer="248"/>
 </package>
 </packages>
 <symbols>
@@ -3025,12 +3031,20 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </classes>
 <parts>
 <part name="FRAME4" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="X2" library="con-riacon_akl" deviceset="AKL18X-10" device="W"/>
-<part name="X1" library="AllSerial" deviceset="ALLSERIAL" device="D"/>
+<part name="X2" library="con-riacon_akl" deviceset="AKL18X-10" device="W">
+<attribute name="OC_REICHELT" value="AKL 182-10"/>
+</part>
+<part name="X1" library="AllSerial" deviceset="ALLSERIAL" device="D">
+<attribute name="OC_REICHELT" value="SL 2X10W 2,54"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="J1" library="con-lstb" deviceset="MA03-2W" device=""/>
-<part name="D1" library="diode" deviceset="DIODE-" device="DO214AA" value="MBRS120"/>
+<part name="J1" library="con-lstb" deviceset="MA03-2W" device="">
+<attribute name="OC_REICHELT" value="MPE 088-2-006"/>
+</part>
+<part name="D1" library="diode" deviceset="DIODE-" device="DO214AA" value="MBRS120">
+<attribute name="OC_REICHELT" value="MBRS120SMD"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -3045,18 +3059,26 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="X2" gate="-2" x="116.84" y="83.82"/>
 <instance part="X2" gate="-3" x="116.84" y="81.28"/>
 <instance part="X2" gate="-4" x="116.84" y="78.74"/>
-<instance part="X2" gate="-5" x="116.84" y="76.2"/>
+<instance part="X2" gate="-5" x="116.84" y="76.2">
+<attribute name="OC_REICHELT" x="116.84" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X2" gate="-6" x="116.84" y="73.66"/>
 <instance part="X2" gate="-7" x="116.84" y="71.12"/>
 <instance part="X2" gate="-8" x="116.84" y="68.58"/>
 <instance part="X2" gate="-9" x="116.84" y="66.04"/>
 <instance part="X2" gate="-10" x="116.84" y="63.5"/>
-<instance part="X1" gate="DAT" x="45.72" y="66.04"/>
+<instance part="X1" gate="DAT" x="45.72" y="66.04">
+<attribute name="OC_REICHELT" x="45.72" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X1" gate="PWR" x="45.72" y="119.38"/>
 <instance part="GND1" gate="1" x="45.72" y="99.06"/>
 <instance part="GND2" gate="1" x="111.76" y="58.42"/>
-<instance part="J1" gate="G$1" x="73.66" y="119.38" rot="R180"/>
-<instance part="D1" gate="G$1" x="91.44" y="104.14"/>
+<instance part="J1" gate="G$1" x="73.66" y="119.38" rot="R180">
+<attribute name="OC_REICHELT" x="73.66" y="119.38" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="D1" gate="G$1" x="91.44" y="104.14">
+<attribute name="OC_REICHELT" x="91.44" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

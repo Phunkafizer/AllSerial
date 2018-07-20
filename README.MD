@@ -35,7 +35,8 @@ An universal open source USB-serial converter for RS232, RS485, RS232, TTL, TTY 
 * Selectable voltage 5 V, 3.3 V, external
 
 ## 5 Current loop (TTY)
-![PCB](./5_TTY/PCB.png)
+![PCB](./5_TTY/5_TTY_SCHEM.png)
+![PCB](./5_TTY/5_TTY_BOARD.png)
 ![Front panel](./5_TTY/FRONT.svg)
 * Jumper for mode (2/3/4-wire, passiv/active)
 * Jumper for currentselection (20 mA / 40 mA)
