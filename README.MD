@@ -23,13 +23,14 @@ An universal open source USB-serial converter for RS232, RS485, RS232, TTL, TTY 
 * Second doublepait for RS422 with handshake lines
 
 ## 3 RS232
-![PCB](./3_RS232/PCB.png)
+![PCB](./3_RS232/3_RS232_SCHEM.png)
+![PCB](./3_RS232/3_RS232_BOARD.png)
 ![Front panel](./3_RS232/FRONT.svg)
 * Full connection: TXD, RXD, CTS, RTS, DTR, DSR, DCD, RI
 * 9 pin Sub-D male connector
 
 ## 4 TTL
-![PCB](./4_TTL/PCB.png)
+![PCB](./4_TTL/4_TTL_BOARD.png)
 ![Front panel](./4_TTL/FRONT.svg)
 * Full connection: TXD, RXD, CTS, RTS, DTR, DSR, DCD, RI
 * Selectable voltage 5 V, 3.3 V, external
