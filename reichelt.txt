@@ -1,0 +1,3 @@
+Fischer Schlitzbreite PCB: 1,8 mm
+
+Y PCB Oberfläche / Lochlinie: 4,9 mm
