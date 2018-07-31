@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4613,6 +4613,12 @@ Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
 <sheet>
 <plain>
 <text x="218.44" y="20.32" size="1.778" layer="94">RS232</text>
+<text x="165.1" y="7.62" size="1.778" layer="94">Seegel Systeme
+Königstraße 57
+90762 Fürth
+www.seegel-systeme.de
+post@seegel-systeme.de
++49 (911) / 8915295</text>
 </plain>
 <instances>
 <instance part="C40" gate="G$1" x="93.98" y="116.84" rot="R90">
@@ -4913,4 +4919,10 @@ Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

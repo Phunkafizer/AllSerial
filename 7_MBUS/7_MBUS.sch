@@ -16958,6 +16958,12 @@ grid 5.08 mm</description>
 <text x="218.44" y="20.32" size="1.778" layer="94">LIN</text>
 <text x="127" y="85.598" size="1.778" layer="94">MBUS+</text>
 <text x="127" y="70.358" size="1.778" layer="94">MBUS-</text>
+<text x="165.1" y="7.62" size="1.778" layer="94">Seegel Systeme
+Königstraße 57
+90762 Fürth
+www.seegel-systeme.de
+post@seegel-systeme.de
++49 (911) / 8915295</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -17301,4 +17307,10 @@ grid 5.08 mm</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

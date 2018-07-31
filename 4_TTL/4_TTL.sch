@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3052,6 +3052,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <text x="87.63" y="115.57" size="1.778" layer="94">5 V
 3.3 V
 1.8 V</text>
+<text x="165.1" y="7.62" size="1.778" layer="94">Seegel Systeme
+Königstraße 57
+90762 Fürth
+www.seegel-systeme.de
+post@seegel-systeme.de
++49 (911) / 8915295</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
