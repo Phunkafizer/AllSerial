@@ -294,10 +294,10 @@ Enclosure Fischer AKG 71 24 100</description>
 <wire x1="-35.75" y1="-2" x2="35.75" y2="-2" width="0" layer="248"/>
 <wire x1="35.75" y1="-2" x2="35.75" y2="-1.5" width="0" layer="248"/>
 <wire x1="0" y1="57.15" x2="0" y2="-3.81" width="0.127" layer="49" style="shortdash"/>
-<text x="-14.65" y="44.45" size="1.27" layer="21">1</text>
-<text x="-15.92" y="41.91" size="1.27" layer="21">20</text>
-<text x="13.29" y="44.45" size="1.27" layer="21">10</text>
-<text x="13.29" y="41.91" size="1.27" layer="21">11</text>
+<text x="-13.38" y="44.45" size="1.27" layer="21">1</text>
+<text x="-14.65" y="41.91" size="1.27" layer="21">20</text>
+<text x="12.655" y="44.45" size="1.27" layer="21">10</text>
+<text x="12.655" y="41.91" size="1.27" layer="21">11</text>
 <wire x1="-35.75" y1="0" x2="-35.75" y2="54.8" width="0.127" layer="248"/>
 <wire x1="35.75" y1="0" x2="35.75" y2="54.8" width="0.127" layer="248"/>
 <dimension x1="-35.75" y1="0" x2="-35.75" y2="-1.5" x3="-40.64" y3="-0.75" textsize="1.27" layer="47"/>
