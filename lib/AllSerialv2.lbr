@@ -303,7 +303,7 @@ Enclosure Fischer AKG 71 24 100</description>
 <dimension x1="-35.75" y1="0" x2="-35.75" y2="-1.5" x3="-40.64" y3="-0.75" textsize="1.27" layer="47"/>
 <dimension x1="-35.75" y1="0" x2="-35.75" y2="-2" x3="-38.1" y3="-1" textsize="1.27" layer="47"/>
 <dimension x1="-29.2" y1="0" x2="-29.2" y2="54.8" x3="-44.45" y3="27.4" textsize="1.27" layer="47"/>
-<dimension x1="-33.7" y1="54.8" x2="33.7" y2="54.8" x3="0" y3="59.69" textsize="1.27" layer="21"/>
+<dimension x1="-33.7" y1="54.8" x2="33.7" y2="54.8" x3="0" y3="59.69" textsize="1.27" layer="47"/>
 </package>
 <package name="DAUGHTER-THT">
 <wire x1="-12.7" y1="2.921" x2="-12.7" y2="0.127" width="0.1524" layer="21"/>
