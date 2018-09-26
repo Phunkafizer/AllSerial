@@ -165,7 +165,7 @@
 </layers>
 <board>
 <plain>
-<text x="3.81" y="8.89" size="1.4224" layer="21" rot="R90">AllSerial - LIN v1.0 30/18</text>
+<text x="3.81" y="8.89" size="1.4224" layer="21" rot="R90">AllSerial - LIN v1.1 38/18</text>
 <text x="18.415" y="34.925" size="1.778" layer="21" rot="R90">Master</text>
 <text x="50.8" y="40.64" size="1.016" layer="21" rot="R90">BAT+</text>
 <text x="47.625" y="40.64" size="1.016" layer="21" rot="R90">LBUS</text>
