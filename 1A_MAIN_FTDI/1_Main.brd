@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2542,6 +2542,7 @@ design rules under a new name.</description>
 <element name="IC7" library="max14932" package="SO16" value="MAX14932" x="-5.08" y="34.29" smashed="yes">
 <attribute name="NAME" x="1.27" y="33.3375" size="1.016" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-9.525" y="33.655" size="1.016" layer="27"/>
+<attribute name="OC_FARNELL" value="2798840" x="-5.08" y="34.29" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC8" library="max14932" package="SO16" value="MAX14932" x="7.62" y="34.29" smashed="yes">
 <attribute name="NAME" x="13.97" y="33.3375" size="1.016" layer="25" rot="R90"/>
@@ -2599,10 +2600,12 @@ design rules under a new name.</description>
 <element name="IC3" library="dc-dc-converter" package="MURATA-SC" value="CRE1S0505SC" x="-23.8125" y="34.29" smashed="yes" rot="R90">
 <attribute name="NAME" x="-24.4475" y="28.2575" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-28.8925" y="27.94" size="1.27" layer="27" rot="R90"/>
+<attribute name="OC_FARNELL" value="2564440" x="-23.8125" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="IC4" library="dc-dc-converter" package="XPPOWER-SIP" value="IL0512SS" x="-15.24" y="34.29" smashed="yes" rot="R90">
 <attribute name="NAME" x="-15.24" y="28.2575" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-20.955" y="30.1625" size="1.27" layer="27" rot="R90"/>
+<attribute name="OC_FARNELL" value="8728119" x="-15.24" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="X5" library="con-cypressindustries" package="32005-201" value="MINI-USB-SCHIELD-32005-201" x="-21.59" y="4.5" smashed="yes" rot="R90">
 <attribute name="MPN" value="" x="-21.59" y="4.5" size="1.778" layer="27" rot="R90" display="off"/>
