@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4442,6 +4442,7 @@ Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="X1" library="AllSerialv2" deviceset="ALLSERIALSLAVE" device=""/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4486,6 +4487,7 @@ post@seegel-systeme.de
 <instance part="P+3" gate="1" x="43.18" y="157.48"/>
 <instance part="X1" gate="DATA" x="45.72" y="81.28"/>
 <instance part="X1" gate="SUP" x="30.48" y="139.7"/>
+<instance part="GND6" gate="1" x="203.2" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -4716,6 +4718,13 @@ post@seegel-systeme.de
 <wire x1="71.12" y1="129.54" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
 <junction x="66.04" y="129.54"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X4" gate="G$1" pin="5"/>
+<wire x1="193.04" y1="83.82" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="193.04" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="86.36" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
