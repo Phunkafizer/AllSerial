@@ -15,41 +15,46 @@ An universal sophisticated USB-serial converter
 
 # Modules
 ## 1A Mainboard FT232
-![PCB](./1A_MAIN_FTDI/1A_MAIN_SCHEM.png)
+![Schematic](./1A_MAIN_FTDI/1A_MAIN_SCHEM.png)
 ![PCB](./1A_MAIN_FTDI/1A_MAIN_BOARD.png)
 * Isolated between controller and daughterboards
-* pin header for connecting logicanalyer
+* pin header for connecting logicanalyzer
 * Reichelt Warenkorb: https://www.reichelt.de/my/1489962
 
 ## 2 RS422/RS485
-![PCB](./2_RS485_RS422/2_RS485_RS422_SCHEM.png)
+![Schematic](./2_RS485_RS422/2_RS485_RS422_SCHEM.png)
 ![PCB](./2_RS485_RS422/2_RS485_RS422_BOARD.png)
 * Jumper for termination
 * Additional doublepair for RS422 with handshake lines
+* Reichelt Warenkorb: https://www.reichelt.de/my/1489968
 
 ## 3 RS232
-![PCB](./3_RS232/3_RS232_SCHEM.png)
+![Schematic](./3_RS232/3_RS232_SCHEM.png)
 ![PCB](./3_RS232/3_RS232_BOARD.png)
 ![Front panel](./3_RS232/FRONT.svg)
 * Full connection: TXD, RXD, CTS, RTS, DTR, DSR, DCD, RI
 * 9 pin Sub-D male connector
+* Reichelt Warenkorb: https://www.reichelt.de/my/1490023
 
 ## 4 TTL
+![Schematic](./4_TTL/4_TTL_SCHEM.png)
 ![PCB](./4_TTL/4_TTL_BOARD.png)
-![PCB](./4_TTL/4_TTL_SCHEM.png)
 * Full connection: TXD, RXD, CTS, RTS, DTR, DSR, DCD, RI
 * Selectable voltage 5 V, 3.3 V, 2.5 V, 1.8 V, external
+* Reichelt Warenkorb: https://www.reichelt.de/my/1490024
 
 ## 5 Current loop (TTY)
-![PCB](./5_TTY/5_TTY_SCHEM.png)
+![![Schematic](./4_TTL/4_TTL_SCHEM.png)](./5_TTY/5_TTY_SCHEM.png)
 ![PCB](./5_TTY/5_TTY_BOARD.png)
 * Jumper for mode (2/3/4-wire, passiv/active)
 * Jumper for currentselection (5 / 20 / 60 mA)
+* Reichelt Warenkorb: https://www.reichelt.de/my/1490298
 
 ## 6 LIN
-![PCB](./6_LIN/6_LIN_SCHEM.png)
+![![Schematic](./4_TTL/4_TTL_SCHEM.png)](./6_LIN/6_LIN_SCHEM.png)
 ![PCB](./6_LIN/6_lin_board.png)
 * Jumper for master
+* Reichelt Warenkorb: https://www.reichelt.de/my/1512118
 
 ## 7 mBus master
 planned
