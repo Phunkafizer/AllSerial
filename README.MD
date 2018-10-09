@@ -1,26 +1,31 @@
 # AllSerial
-An universal open source USB-serial converter for RS232, RS485, RS232, TTL, TTY current loop, mBus
+An universal sophisticated USB-serial converter
 
 ## Features
+- Open source
 - Isolated
 - Reset button for reenumerating device on the USB
-- Status LEDs
+- Status LEDs (RX, TX, Power, TXEN)
 - modular, just exchange daughterboard for different interfaces
+- RS232 completley connected (RXD, TXD, RTS, CTS, DTR, DSR, RI, DCD)
+- RS485, RS422 with Handshake
+- TTY current loop 4/3/2 wire active/passive
+- LIN
+- TTL 1.8/2.5/3.3/5 V
 
 # Modules
 ## 1A Mainboard FT232
-![PCB](./1_MAIN/1_MAIN_SCHEM.png)
-![PCB](./1_MAIN/1_MAIN_BOARD.png)
-![Front panel](./1_MAIN/FRONT.svg)
+![PCB](./1_MAIN_FTDI/1A_MAIN_SCHEM.png)
+![PCB](./1_MAIN/1A_MAIN_BOARD.png)
 * Isolated between controller and daughterboards
 * pin header for connecting logicanalyer
+* Reichelt Warenkorb: https://www.reichelt.de/my/1489962
 
 ## 2 RS422/RS485
 ![PCB](./2_RS485_RS422/2_RS485_RS422_SCHEM.png)
 ![PCB](./2_RS485_RS422/2_RS485_RS422_BOARD.png)
-![Front panel](./2_RS485_RS422/FRONT.svg)
 * Jumper for termination
-* Second doublepait for RS422 with handshake lines
+* Additional doublepair for RS422 with handshake lines
 
 ## 3 RS232
 ![PCB](./3_RS232/3_RS232_SCHEM.png)
@@ -31,25 +36,28 @@ An universal open source USB-serial converter for RS232, RS485, RS232, TTL, TTY 
 
 ## 4 TTL
 ![PCB](./4_TTL/4_TTL_BOARD.png)
-![Front panel](./4_TTL/FRONT.svg)
+![PCB](./4_TTL/4_TTL_SCHEM.png)
 * Full connection: TXD, RXD, CTS, RTS, DTR, DSR, DCD, RI
-* Selectable voltage 5 V, 3.3 V, external
+* Selectable voltage 5 V, 3.3 V, 2.5 V, 1.8 V, external
 
 ## 5 Current loop (TTY)
 ![PCB](./5_TTY/5_TTY_SCHEM.png)
 ![PCB](./5_TTY/5_TTY_BOARD.png)
-![Front panel](./5_TTY/FRONT.svg)
 * Jumper for mode (2/3/4-wire, passiv/active)
-* Jumper for currentselection (20 mA / 40 mA)
+* Jumper for currentselection (5 / 20 / 60 mA)
 
 ## 6 LIN
-![PCB](./6_LIN/PCB.png)
-![Front panel](./6_LIN/FRONT.svg)
+![PCB](./6_LIN/6_LIN_SCHEM.png)
+![PCB](./6_LIN/6_lin_board.png)
 * Jumper for master
 
 ## 7 mBus master
+planned
+
+## 8 eBus
+planned
+
+## 9 1wire bus
 
 # notes
-Housing: Fischer AKG 71 24 100 ME
-Mainboard LEDs Mentor 1296.1004
 USB hardware design guide for FTDI ICs: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwjRm7euw6jcAhUHKewKHaPXCe0QFghIMAI&url=http%3A%2F%2Fwww.ftdichip.com%2FSupport%2FDocuments%2FAppNotes%2FAN_146_USB_Hardware_Design_Guidelines_for_FTDI_ICs.pdf&usg=AOvVaw03a2woa2nwI7w2zJgOb3nb
