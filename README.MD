@@ -15,7 +15,7 @@ An universal sophisticated USB-serial converter
 
 # Modules
 ## 1A Mainboard FT232
-![Schematic](./1A_MAIN_FTDI/1A_MAIN_SCHEM.png)
+![Schematic](./1A_MAIN_FTDI/1A_MAIN_SCHEM.png | width = 250)
 ![PCB](./1A_MAIN_FTDI/1A_MAIN_BOARD.png)
 * Isolated between controller and daughterboards
 * pin header for connecting logicanalyzer
