@@ -15,16 +15,14 @@ An universal sophisticated USB-serial converter
 
 # Modules
 ## 1A Mainboard FT232
-<img src="1A_MAIN_FTDI/1A_MAIN_SCHEM.png" width="350">
-<img src="1A_MAIN_FTDI/1A_MAIN_BOARD.png" width="350">
+<img src="1A_MAIN_FTDI/1A_MAIN_SCHEM.png" width="350"><img src="1A_MAIN_FTDI/1A_MAIN_BOARD.png" width="350">
 
 * Isolated between controller and daughterboards
 * pin header for connecting logicanalyzer
 * Reichelt Warenkorb: https://www.reichelt.de/my/1489962
 
 ## 2 RS422/RS485
-![Schematic](./2_RS485_RS422/2_RS485_RS422_SCHEM.png)
-![PCB](./2_RS485_RS422/2_RS485_RS422_BOARD.png)
+<img src="2_RS485_RS422/2_RS485_RS422_SCHEM.png" width="350"><img src="2_RS485_RS422/2_RS485_RS422_BOARD" width="350">
 * Jumper for termination
 * Additional doublepair for RS422 with handshake lines
 * Reichelt Warenkorb: https://www.reichelt.de/my/1489968
