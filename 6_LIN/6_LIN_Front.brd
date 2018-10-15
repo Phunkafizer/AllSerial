@@ -80,13 +80,13 @@
 LIN</text>
 <text x="2" y="2" size="1.27" layer="29" ratio="11">AllSerial
 LIN</text>
-<text x="19.07" y="18" size="1.27" layer="29" ratio="11" rot="R45" align="center-left">RX+</text>
+<text x="19.07" y="18" size="1.27" layer="29" ratio="11" rot="R45" align="center-left">BAT+</text>
 <hole x="16.4" y="16.5" drill="0.6"/>
 <hole x="16.4" y="6.6" drill="0.6"/>
 <hole x="29.7" y="16.5" drill="0.6"/>
 <hole x="29.7" y="6.6" drill="0.6"/>
 <text x="26.07" y="18" size="1.27" layer="1" ratio="11" rot="R45" align="center-left">GND</text>
-<text x="22.57" y="18" size="1.27" layer="1" ratio="11" rot="R45" align="center-left">V+</text>
+<text x="22.57" y="18" size="1.27" layer="1" ratio="11" rot="R45" align="center-left">LBUS</text>
 <wire x1="44.91" y1="10.32" x2="44.91" y2="6.6" width="0" layer="20"/>
 <wire x1="44.91" y1="6.6" x2="52" y2="6.6" width="0" layer="20"/>
 <wire x1="52" y1="6.6" x2="52" y2="10.32" width="0" layer="20"/>
@@ -96,8 +96,8 @@ LIN</text>
 <hole x="52" y="10.32" drill="0.6"/>
 <hole x="52" y="6.6" drill="0.6"/>
 <text x="48.455" y="12" size="1.27" layer="29" ratio="11" align="bottom-center">Master</text>
-<text x="19.07" y="18" size="1.27" layer="1" ratio="11" rot="R45" align="center-left">RX+</text>
-<text x="22.57" y="18" size="1.27" layer="29" ratio="11" rot="R45" align="center-left">V+</text>
+<text x="19.07" y="18" size="1.27" layer="1" ratio="11" rot="R45" align="center-left">BAT+</text>
+<text x="22.57" y="18" size="1.27" layer="29" ratio="11" rot="R45" align="center-left">LBUS</text>
 <text x="26.07" y="18" size="1.27" layer="29" ratio="11" rot="R45" align="center-left">GND</text>
 <text x="48.455" y="12" size="1.27" layer="1" ratio="11" align="bottom-center">Master</text>
 </plain>
