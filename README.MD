@@ -1,5 +1,8 @@
 # AllSerial
 An universal sophisticated USB-serial converter
+Over the course of time I had to work with many different devices which had to be connected via a kind of serial interface. There are lots of different cheap USB-serial adapters available, but no adapter was including all features I needed in a single device. Every USB-serial adapter has in common the USB Controller. So I came up with the idea having a masterboard providing all the common features like USB interface, isolation and diagnostic elements. The most used interfaces (RS232, RS485, TTL UART, TTY current loop & LIN) are build up on slave modules which can be plugged into the mainboard. If a custom interface is needed, there is an EAGLE lib available making it easy to it on your own. 
+
+<img src="allserial.jpg" height="300"><img src="boards.png" height="300">
 
 ## Features
 - Open source
@@ -12,39 +15,18 @@ An universal sophisticated USB-serial converter
 - TTY current loop 4/3/2 wire active/passive
 - LIN
 - TTL 1.8/2.5/3.3/5 V
+- EAGLE lib for easily creating custom modules
 
-# Modules
+# Modules (tested & working)
 * [Mainboard FT232](1A_MAIN_FTDI/)
 * [RS 422/485](2_RS485_RS422/)
 * [RS 232](3_RS232/)
+* [TTL](4_TTL/)
+* [TTY current loop](5_TTY/)
+* [LIN](6_LIN/)
 
-## 4 TTL
-![Schematic](./4_TTL/4_TTL_SCHEM.png)
-![PCB](./4_TTL/4_TTL_BOARD.png)
-* Full connection: TXD, RXD, CTS, RTS, DTR, DSR, DCD, RI
-* Selectable voltage 5 V, 3.3 V, 2.5 V, 1.8 V, external
-* Reichelt Warenkorb: https://www.reichelt.de/my/1490024
-
-## 5 Current loop (TTY)
-![![Schematic](./4_TTL/4_TTL_SCHEM.png)](./5_TTY/5_TTY_SCHEM.png)
-![PCB](./5_TTY/5_TTY_BOARD.png)
-* Jumper for mode (2/3/4-wire, passiv/active)
-* Jumper for currentselection (5 / 20 / 60 mA)
-* Reichelt Warenkorb: https://www.reichelt.de/my/1490298
-
-## 6 LIN
-![![Schematic](./4_TTL/4_TTL_SCHEM.png)](./6_LIN/6_LIN_SCHEM.png)
-![PCB](./6_LIN/6_lin_board.png)
-* Jumper for master
-* Reichelt Warenkorb: https://www.reichelt.de/my/1512118
-
-## 7 mBus master
-planned
-
-## 8 eBus
-planned
-
-## 9 1wire bus
-
-# notes
-USB hardware design guide for FTDI ICs: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwjRm7euw6jcAhUHKewKHaPXCe0QFghIMAI&url=http%3A%2F%2Fwww.ftdichip.com%2FSupport%2FDocuments%2FAppNotes%2FAN_146_USB_Hardware_Design_Guidelines_for_FTDI_ICs.pdf&usg=AOvVaw03a2woa2nwI7w2zJgOb3nb
+# Modules (planned)
+* mBus master
+* eBus
+* 1wire with DS2480B
+* arduino nano clone
