@@ -14,12 +14,7 @@ An universal sophisticated USB-serial converter
 - TTL 1.8/2.5/3.3/5 V
 
 # Modules
-## 1A Mainboard FT232
-<img src="1A_MAIN_FTDI/1A_MAIN_SCHEM.png" height="300"><img src="1A_MAIN_FTDI/1A_MAIN_BOARD.png" height="300">
-
-* Isolated between controller and daughterboards
-* pin header for connecting logicanalyzer
-* Reichelt Warenkorb: https://www.reichelt.de/my/1489962
+* [Mainboard FT232](1A_MAIN_FTDI/)
 
 ## 2 RS422/RS485
 <img src="2_RS485_RS422/2_RS485_RS422_SCHEM.png" height="300"><img src="2_RS485_RS422/2_RS485_RS422_BOARD.png" height="300">
