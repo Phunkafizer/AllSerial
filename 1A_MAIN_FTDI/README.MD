@@ -1,5 +1,6 @@
 # AllSerial Mainboard FT232
 AllSerial Mainboard with FTDI FT232
+
 <img src="1A_MAIN_SCHEM.png" height="300"><img src="1A_MAIN_BOARD.png" height="300">
 
 * Isolated between controller and daughterboards
