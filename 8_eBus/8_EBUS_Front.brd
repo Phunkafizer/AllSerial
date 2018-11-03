@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -38,23 +38,23 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -72,24 +72,23 @@
 <wire x1="-35.75" y1="21" x2="-32.75" y2="24" width="0" layer="20" curve="-90"/>
 <hole x="-31.75" y="12" drill="3.2"/>
 <hole x="31.75" y="12" drill="3.2"/>
-<wire x1="-6.65" y1="16.1" x2="-6.65" y2="7" width="0" layer="20"/>
-<wire x1="-6.65" y1="7" x2="6.65" y2="7" width="0" layer="20"/>
-<wire x1="6.65" y1="7" x2="6.65" y2="16.1" width="0" layer="20"/>
-<wire x1="6.65" y1="16.1" x2="-6.65" y2="16.1" width="0" layer="20"/>
+<wire x1="-17.2" y1="16.1" x2="-17.6" y2="15.7" width="0" layer="20" curve="90"/>
+<wire x1="-17.6" y1="15.7" x2="-17.6" y2="6.6" width="0" layer="20"/>
+<wire x1="-17.6" y1="6.6" x2="-7.8" y2="6.6" width="0" layer="20"/>
+<wire x1="-7.8" y1="6.6" x2="-7.8" y2="15.7" width="0" layer="20"/>
+<wire x1="-7.8" y1="15.7" x2="-8.2" y2="16.1" width="0" layer="20" curve="90"/>
+<wire x1="-8.2" y1="16.1" x2="-17.2" y2="16.1" width="0" layer="20"/>
 <text x="-33.75" y="2" size="1.27" layer="1" ratio="11">AllSerial
-1wire</text>
+eBus</text>
 <text x="-33.75" y="2" size="1.27" layer="29" ratio="11">AllSerial
-1wire</text>
-<hole x="-6.45" y="15.9" drill="0.6"/>
-<hole x="-6.45" y="7.2" drill="0.6"/>
-<hole x="6.45" y="15.9" drill="0.6"/>
-<hole x="6.45" y="7.2" drill="0.6"/>
-<text x="-3.68" y="18" size="1.27" layer="29" ratio="11" rot="R45" align="center-left">GND</text>
-<text x="3.32" y="18" size="1.27" layer="1" ratio="11" rot="R45" align="center-left">+5V</text>
-<text x="0" y="18" size="1.27" layer="1" ratio="11" rot="R45" align="center-left">1w</text>
-<text x="-3.68" y="18" size="1.27" layer="1" ratio="11" rot="R45" align="center-left">GND</text>
-<text x="0" y="18" size="1.27" layer="29" ratio="11" rot="R45" align="center-left">1w</text>
-<text x="3.32" y="18" size="1.27" layer="29" ratio="11" rot="R45" align="center-left">+5V</text>
+eBus</text>
+<hole x="-17.4" y="15.9" drill="0.6"/>
+<hole x="-17.4" y="6.6" drill="0.6"/>
+<hole x="-8" y="15.9" drill="0.6"/>
+<hole x="-8" y="6.6" drill="0.6"/>
+<hole x="16.51" y="9.64" drill="2"/>
+<text x="16.51" y="13" size="1.27" layer="1" ratio="11" align="bottom-center">LEVEL</text>
+<text x="16.51" y="13" size="1.27" layer="29" ratio="11" align="bottom-center">LEVEL</text>
 <wire x1="30.576240625" y1="23.3152875" x2="31.09751875" y2="23.929425" width="0.001" layer="48"/>
 <wire x1="31.09751875" y1="23.929425" x2="31.40248125" y2="23.929425" width="0.001" layer="48" curve="-99.35"/>
 <wire x1="31.40248125" y1="23.929425" x2="31.923759375" y2="23.3152875" width="0.001" layer="48"/>
@@ -367,7 +366,7 @@ design rules under a new name.</description>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="10mil"/>
-<param name="msDrill" value="24mil"/>
+<param name="msDrill" value="0.3mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -525,15 +524,15 @@ design rules under a new name.</description>
 </polygon>
 <polygon width="0.001" layer="16">
 <vertex x="-29" y="8.7"/>
-<vertex x="-6.7" y="8.7"/>
-<vertex x="-6.7" y="7.3"/>
+<vertex x="-17.7" y="8.7"/>
+<vertex x="-17.7" y="7.3"/>
 <vertex x="-29" y="7.3"/>
 </polygon>
 <polygon width="0.001" layer="16">
-<vertex x="6.7" y="8.7"/>
+<vertex x="-7.905" y="8.7"/>
 <vertex x="29" y="8.7"/>
 <vertex x="29" y="7.3"/>
-<vertex x="6.7" y="7.3"/>
+<vertex x="-7.905" y="7.3"/>
 </polygon>
 </signal>
 </signals>
