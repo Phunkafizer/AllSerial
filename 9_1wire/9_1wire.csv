@@ -1,7 +1,0 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"REICHELT";
-"1";"100";"R-EU_R0805";"R0805";"R1";"RESISTOR, European symbol";"";
-"2";"100n";"C-EUC0805";"C0805";"C1, C2";"CAPACITOR, European symbol";"";
-"1";"AKL18X-03W";"AKL18X-03W";"AKL182-03";"X6";"Riacon AKL18X Steckverbinder";"";
-"1";"ALLSERIALSLAVE";"ALLSERIALSLAVE";"DAUGHTER-THT";"X1";"";"";
-"1";"BZV 55-C15";"ZENER-DIODESOD80C";"SOD80C";"D1";"Z-Diode";"";
-"1";"DS2480B";"DS2480B";"SO08";"IC1";"DS2480B, Serial to 1-Wire Line Driver, Maxim, SO-08";"DS 2480 B";
