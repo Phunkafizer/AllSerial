@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -46,22 +46,396 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="11" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="pt_docu" color="7" fill="0" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Mittellin" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="Stiffner" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tBridges" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="tBPL" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="bBPL" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="MPL" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="wago-modra" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="sName" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="p_Milling" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="147" name="COVER" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="190" name="Comments" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="HOUSING" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
+<text x="-33.75" y="2" size="1.27" layer="1" ratio="11">ARDUINO</text>
+<text x="-33.75" y="2" size="1.27" layer="29" ratio="11">ARDUINO</text>
+<polygon width="0.254" layer="30">
+<vertex x="10.983" y="10.16"/>
+<vertex x="9.337" y="10.16"/>
+<vertex x="9.337" y="7.493"/>
+<vertex x="10.983" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="13.523" y="10.16"/>
+<vertex x="11.877" y="10.16"/>
+<vertex x="11.877" y="7.493"/>
+<vertex x="13.523" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="16.063" y="10.16"/>
+<vertex x="14.417" y="10.16"/>
+<vertex x="14.417" y="7.493"/>
+<vertex x="16.063" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="18.603" y="10.16"/>
+<vertex x="16.957" y="10.16"/>
+<vertex x="16.957" y="7.493"/>
+<vertex x="18.603" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-16.957" y="10.16"/>
+<vertex x="-18.603" y="10.16"/>
+<vertex x="-18.603" y="7.493"/>
+<vertex x="-16.957" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-14.417" y="10.16"/>
+<vertex x="-16.063" y="10.16"/>
+<vertex x="-16.063" y="7.493"/>
+<vertex x="-14.417" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-11.877" y="10.16"/>
+<vertex x="-13.523" y="10.16"/>
+<vertex x="-13.523" y="7.493"/>
+<vertex x="-11.877" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-9.337" y="10.16"/>
+<vertex x="-10.983" y="10.16"/>
+<vertex x="-10.983" y="7.493"/>
+<vertex x="-9.337" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="21.143" y="10.16"/>
+<vertex x="19.497" y="10.16"/>
+<vertex x="19.497" y="7.493"/>
+<vertex x="21.143" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="23.683" y="10.16"/>
+<vertex x="22.037" y="10.16"/>
+<vertex x="22.037" y="7.493"/>
+<vertex x="23.683" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="26.223" y="10.16"/>
+<vertex x="24.577" y="10.16"/>
+<vertex x="24.577" y="7.493"/>
+<vertex x="26.223" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="28.763" y="10.16"/>
+<vertex x="27.117" y="10.16"/>
+<vertex x="27.117" y="7.493"/>
+<vertex x="28.763" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-27.117" y="10.16"/>
+<vertex x="-28.763" y="10.16"/>
+<vertex x="-28.763" y="7.493"/>
+<vertex x="-27.117" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-24.577" y="10.16"/>
+<vertex x="-26.223" y="10.16"/>
+<vertex x="-26.223" y="7.493"/>
+<vertex x="-24.577" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-22.037" y="10.16"/>
+<vertex x="-23.683" y="10.16"/>
+<vertex x="-23.683" y="7.493"/>
+<vertex x="-22.037" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-19.497" y="10.16"/>
+<vertex x="-21.143" y="10.16"/>
+<vertex x="-21.143" y="7.493"/>
+<vertex x="-19.497" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-9.337" y="5.207"/>
+<vertex x="-10.983" y="5.207"/>
+<vertex x="-10.983" y="3.683"/>
+<vertex x="-9.337" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-11.877" y="5.207"/>
+<vertex x="-13.523" y="5.207"/>
+<vertex x="-13.523" y="3.683"/>
+<vertex x="-11.877" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-14.417" y="5.207"/>
+<vertex x="-16.063" y="5.207"/>
+<vertex x="-16.063" y="3.683"/>
+<vertex x="-14.417" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-16.957" y="5.207"/>
+<vertex x="-18.603" y="5.207"/>
+<vertex x="-18.603" y="3.683"/>
+<vertex x="-16.957" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-19.497" y="5.207"/>
+<vertex x="-21.143" y="5.207"/>
+<vertex x="-21.143" y="3.683"/>
+<vertex x="-19.497" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-22.037" y="5.207"/>
+<vertex x="-23.683" y="5.207"/>
+<vertex x="-23.683" y="3.683"/>
+<vertex x="-22.037" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-24.577" y="5.207"/>
+<vertex x="-26.223" y="5.207"/>
+<vertex x="-26.223" y="3.683"/>
+<vertex x="-24.577" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-27.117" y="5.207"/>
+<vertex x="-28.763" y="5.207"/>
+<vertex x="-28.763" y="3.683"/>
+<vertex x="-27.117" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="13.523" y="5.207"/>
+<vertex x="11.877" y="5.207"/>
+<vertex x="11.877" y="3.683"/>
+<vertex x="13.523" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="10.983" y="5.207"/>
+<vertex x="9.337" y="5.207"/>
+<vertex x="9.337" y="3.683"/>
+<vertex x="10.983" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="18.603" y="5.207"/>
+<vertex x="16.957" y="5.207"/>
+<vertex x="16.957" y="3.683"/>
+<vertex x="18.603" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="16.063" y="5.207"/>
+<vertex x="14.417" y="5.207"/>
+<vertex x="14.417" y="3.683"/>
+<vertex x="16.063" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="23.683" y="5.207"/>
+<vertex x="22.037" y="5.207"/>
+<vertex x="22.037" y="3.683"/>
+<vertex x="23.683" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="21.143" y="5.207"/>
+<vertex x="19.497" y="5.207"/>
+<vertex x="19.497" y="3.683"/>
+<vertex x="21.143" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="28.763" y="5.207"/>
+<vertex x="27.117" y="5.207"/>
+<vertex x="27.117" y="3.683"/>
+<vertex x="28.763" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="26.223" y="5.207"/>
+<vertex x="24.577" y="5.207"/>
+<vertex x="24.577" y="3.683"/>
+<vertex x="26.223" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="0.823" y="10.16"/>
+<vertex x="-0.823" y="10.16"/>
+<vertex x="-0.823" y="7.493"/>
+<vertex x="0.823" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="0.823" y="5.207"/>
+<vertex x="-0.823" y="5.207"/>
+<vertex x="-0.823" y="3.683"/>
+<vertex x="0.823" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-1.717" y="10.16"/>
+<vertex x="-3.363" y="10.16"/>
+<vertex x="-3.363" y="7.493"/>
+<vertex x="-1.717" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-1.717" y="5.207"/>
+<vertex x="-3.363" y="5.207"/>
+<vertex x="-3.363" y="3.683"/>
+<vertex x="-1.717" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-4.257" y="10.16"/>
+<vertex x="-5.903" y="10.16"/>
+<vertex x="-5.903" y="7.493"/>
+<vertex x="-4.257" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-4.257" y="5.207"/>
+<vertex x="-5.903" y="5.207"/>
+<vertex x="-5.903" y="3.683"/>
+<vertex x="-4.257" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="3.363" y="10.16"/>
+<vertex x="1.717" y="10.16"/>
+<vertex x="1.717" y="7.493"/>
+<vertex x="3.363" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="3.363" y="5.207"/>
+<vertex x="1.717" y="5.207"/>
+<vertex x="1.717" y="3.683"/>
+<vertex x="3.363" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="5.903" y="10.16"/>
+<vertex x="4.257" y="10.16"/>
+<vertex x="4.257" y="7.493"/>
+<vertex x="5.903" y="7.493"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="5.903" y="5.207"/>
+<vertex x="4.257" y="5.207"/>
+<vertex x="4.257" y="3.683"/>
+<vertex x="5.903" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="-6.797" y="5.207"/>
+<vertex x="-8.443" y="5.207"/>
+<vertex x="-8.443" y="3.683"/>
+<vertex x="-6.797" y="3.683"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="8.443" y="5.207"/>
+<vertex x="6.797" y="5.207"/>
+<vertex x="6.797" y="3.683"/>
+<vertex x="8.443" y="3.683"/>
+</polygon>
+</plain>
+<libraries>
+<library name="AllSerialv2">
+<packages>
+<package name="PANEL">
 <wire x1="-32.75" y1="24" x2="32.75" y2="24" width="0" layer="20"/>
 <wire x1="32.75" y1="24" x2="35.75" y2="21" width="0" layer="20" curve="-90"/>
 <wire x1="35.75" y1="21" x2="35.75" y2="3" width="0" layer="20"/>
@@ -72,10 +446,8 @@
 <wire x1="-35.75" y1="21" x2="-32.75" y2="24" width="0" layer="20" curve="-90"/>
 <hole x="-31.75" y="12" drill="3.2"/>
 <hole x="31.75" y="12" drill="3.2"/>
-<text x="-33.75" y="2" size="1.27" layer="1" ratio="11">AllSerial
-ARDUINO</text>
-<text x="-33.75" y="2" size="1.27" layer="29" ratio="11">AllSerial
-ARDUINO</text>
+<text x="-33.75" y="4" size="1.27" layer="1" ratio="11">AllSerial</text>
+<text x="-33.75" y="4" size="1.27" layer="29" ratio="11">AllSerial</text>
 <wire x1="30.576240625" y1="23.3152875" x2="31.09751875" y2="23.929425" width="0.001" layer="48"/>
 <wire x1="31.09751875" y1="23.929425" x2="31.40248125" y2="23.929425" width="0.001" layer="48" curve="-99.35"/>
 <wire x1="31.40248125" y1="23.929425" x2="31.923759375" y2="23.3152875" width="0.001" layer="48"/>
@@ -303,22 +675,15 @@ ARDUINO</text>
 <wire x1="32.95" y1="5.419996875" x2="33.9" y2="5.419996875" width="0.001" layer="48"/>
 <wire x1="33.9" y1="5.419996875" x2="33.9" y2="7.22000625" width="0.001" layer="48"/>
 <wire x1="33.9" y1="7.22000625" x2="32.95295" y2="7.22000625" width="0.001" layer="48"/>
-<polygon width="0.254" layer="30">
-<vertex x="-31" y="8.7"/>
-<vertex x="31" y="8.7"/>
-<vertex x="31" y="4"/>
-<vertex x="-31" y="4"/>
+<polygon width="0.127" layer="30">
+<vertex x="-33.8" y="7.1"/>
+<vertex x="33.8" y="7.1"/>
+<vertex x="33.8" y="5.55"/>
+<vertex x="-33.8" y="5.55"/>
 </polygon>
-<wire x1="25.4" y1="7.2" x2="-25.615" y2="7.2" width="0" layer="20"/>
-<wire x1="-25.615" y1="7.2" x2="-26.67" y2="8.255" width="0" layer="20" curve="-90"/>
-<wire x1="-26.67" y1="8.255" x2="-26.67" y2="10.16" width="0" layer="20"/>
-<wire x1="-26.67" y1="10.16" x2="-25.4" y2="11.215" width="0" layer="20" curve="-90"/>
-<wire x1="-25.4" y1="11.215" x2="25.4" y2="11.215" width="0" layer="20"/>
-<wire x1="25.4" y1="11.215" x2="26.67" y2="10.16" width="0" layer="20" curve="-90"/>
-<wire x1="26.67" y1="10.16" x2="26.67" y2="8.255" width="0" layer="20"/>
-<wire x1="26.67" y1="8.255" x2="25.4" y2="7.2" width="0" layer="20" curve="-90"/>
-</plain>
-<libraries>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -508,215 +873,665 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
+<element name="E$1" library="AllSerialv2" package="PANEL" value="" x="0" y="0"/>
 </elements>
 <signals>
-<signal name="S$1">
-<polygon width="0.254" layer="16">
-<vertex x="-0.6" y="4"/>
-<vertex x="0.6" y="4"/>
-<vertex x="0.6" y="5.3"/>
-<vertex x="-0.6" y="5.3"/>
-</polygon>
-</signal>
 <signal name="S$2">
-<polygon width="0.254" layer="16">
-<vertex x="1.94" y="4"/>
-<vertex x="3.14" y="4"/>
-<vertex x="3.14" y="5.3"/>
-<vertex x="1.94" y="5.3"/>
-</polygon>
+<via x="0" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
 </signal>
 <signal name="S$3">
-<polygon width="0.254" layer="16">
-<vertex x="4.48" y="4"/>
-<vertex x="5.68" y="4"/>
-<vertex x="5.68" y="5.3"/>
-<vertex x="4.48" y="5.3"/>
-</polygon>
+<via x="0" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
 </signal>
 <signal name="S$4">
-<polygon width="0.254" layer="16">
-<vertex x="7.02" y="4"/>
-<vertex x="8.22" y="4"/>
-<vertex x="8.22" y="5.3"/>
-<vertex x="7.02" y="5.3"/>
-</polygon>
+<via x="0" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
 </signal>
 <signal name="S$5">
-<polygon width="0.254" layer="16">
-<vertex x="9.56" y="4"/>
-<vertex x="10.76" y="4"/>
-<vertex x="10.76" y="5.3"/>
-<vertex x="9.56" y="5.3"/>
-</polygon>
+<via x="0" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
 </signal>
 <signal name="S$6">
-<polygon width="0.254" layer="16">
-<vertex x="12.1" y="4"/>
-<vertex x="13.3" y="4"/>
-<vertex x="13.3" y="5.3"/>
-<vertex x="12.1" y="5.3"/>
-</polygon>
+<via x="2.54" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
 </signal>
 <signal name="S$7">
-<polygon width="0.254" layer="16">
-<vertex x="14.64" y="4"/>
-<vertex x="15.84" y="4"/>
-<vertex x="15.84" y="5.3"/>
-<vertex x="14.64" y="5.3"/>
-</polygon>
+<via x="2.54" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
 </signal>
 <signal name="S$8">
-<polygon width="0.254" layer="16">
-<vertex x="17.18" y="4"/>
-<vertex x="18.38" y="4"/>
-<vertex x="18.38" y="5.3"/>
-<vertex x="17.18" y="5.3"/>
-</polygon>
+<via x="2.54" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
 </signal>
 <signal name="S$9">
+<via x="2.54" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$12">
+<via x="-2.54" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$13">
+<via x="-2.54" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$14">
+<via x="-2.54" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$15">
+<via x="-2.54" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$17">
+<via x="7.62" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$18">
+<via x="7.62" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$19">
+<via x="7.62" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$20">
+<via x="7.62" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$21">
+<via x="10.16" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$22">
+<via x="10.16" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$23">
+<via x="10.16" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$24">
+<via x="10.16" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$25">
+<via x="10.16" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
 <polygon width="0.254" layer="16">
-<vertex x="-10.76" y="4"/>
-<vertex x="-9.56" y="4"/>
-<vertex x="-9.56" y="5.3"/>
-<vertex x="-10.76" y="5.3"/>
+<vertex x="9.337" y="7.493"/>
+<vertex x="9.337" y="10.16"/>
+<vertex x="10.983" y="10.16"/>
+<vertex x="10.983" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$27">
+<via x="5.08" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$28">
+<via x="5.08" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$29">
+<via x="5.08" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$30">
+<via x="5.08" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$32">
+<via x="15.24" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$33">
+<via x="15.24" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$34">
+<via x="15.24" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$35">
+<via x="15.24" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$36">
+<via x="17.78" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$37">
+<via x="17.78" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$38">
+<via x="17.78" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$39">
+<via x="17.78" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$42">
+<via x="12.7" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$43">
+<via x="12.7" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$44">
+<via x="12.7" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$45">
+<via x="12.7" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$31">
+<via x="12.7" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="11.877" y="7.493"/>
+<vertex x="11.877" y="10.16"/>
+<vertex x="13.523" y="10.16"/>
+<vertex x="13.523" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$40">
+<via x="15.24" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="14.417" y="7.493"/>
+<vertex x="14.417" y="10.16"/>
+<vertex x="16.063" y="10.16"/>
+<vertex x="16.063" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$41">
+<via x="17.78" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="16.957" y="7.493"/>
+<vertex x="16.957" y="10.16"/>
+<vertex x="18.603" y="10.16"/>
+<vertex x="18.603" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$47">
+<via x="-5.08" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$48">
+<via x="-5.08" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$49">
+<via x="-5.08" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$50">
+<via x="-5.08" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$52">
+<via x="-7.62" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$53">
+<via x="-7.62" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$54">
+<via x="-7.62" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$55">
+<via x="-7.62" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$56">
+<via x="-17.78" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$57">
+<via x="-17.78" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$58">
+<via x="-17.78" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$59">
+<via x="-17.78" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$60">
+<via x="-17.78" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="-18.603" y="7.493"/>
+<vertex x="-18.603" y="10.16"/>
+<vertex x="-16.957" y="10.16"/>
+<vertex x="-16.957" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$61">
+<via x="-12.7" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$62">
+<via x="-12.7" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$63">
+<via x="-12.7" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$64">
+<via x="-12.7" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$65">
+<via x="-10.16" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$66">
+<via x="-10.16" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$67">
+<via x="-10.16" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$68">
+<via x="-10.16" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$69">
+<via x="-15.24" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$70">
+<via x="-15.24" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$71">
+<via x="-15.24" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$72">
+<via x="-15.24" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$73">
+<via x="-15.24" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="-16.063" y="7.493"/>
+<vertex x="-16.063" y="10.16"/>
+<vertex x="-14.417" y="10.16"/>
+<vertex x="-14.417" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$74">
+<via x="-12.7" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="-13.523" y="7.493"/>
+<vertex x="-13.523" y="10.16"/>
+<vertex x="-11.877" y="10.16"/>
+<vertex x="-11.877" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$75">
+<via x="-10.16" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="-10.983" y="7.493"/>
+<vertex x="-10.983" y="10.16"/>
+<vertex x="-9.337" y="10.16"/>
+<vertex x="-9.337" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$76">
+<via x="20.32" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$77">
+<via x="20.32" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$78">
+<via x="20.32" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$79">
+<via x="20.32" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$80">
+<via x="20.32" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="19.497" y="7.493"/>
+<vertex x="19.497" y="10.16"/>
+<vertex x="21.143" y="10.16"/>
+<vertex x="21.143" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$81">
+<via x="25.4" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$82">
+<via x="25.4" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$83">
+<via x="25.4" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$84">
+<via x="25.4" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$85">
+<via x="27.94" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$86">
+<via x="27.94" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$87">
+<via x="27.94" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$88">
+<via x="27.94" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$89">
+<via x="22.86" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$90">
+<via x="22.86" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$91">
+<via x="22.86" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$92">
+<via x="22.86" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$93">
+<via x="22.86" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="22.037" y="7.493"/>
+<vertex x="22.037" y="10.16"/>
+<vertex x="23.683" y="10.16"/>
+<vertex x="23.683" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$94">
+<via x="25.4" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="24.577" y="7.493"/>
+<vertex x="24.577" y="10.16"/>
+<vertex x="26.223" y="10.16"/>
+<vertex x="26.223" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$95">
+<via x="27.94" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="27.117" y="7.493"/>
+<vertex x="27.117" y="10.16"/>
+<vertex x="28.763" y="10.16"/>
+<vertex x="28.763" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$96">
+<via x="-27.94" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$97">
+<via x="-27.94" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$98">
+<via x="-27.94" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$99">
+<via x="-27.94" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$100">
+<via x="-27.94" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="-28.763" y="7.493"/>
+<vertex x="-28.763" y="10.16"/>
+<vertex x="-27.117" y="10.16"/>
+<vertex x="-27.117" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$101">
+<via x="-22.86" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$102">
+<via x="-22.86" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$103">
+<via x="-22.86" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$104">
+<via x="-22.86" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$105">
+<via x="-20.32" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$106">
+<via x="-20.32" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$107">
+<via x="-20.32" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$108">
+<via x="-20.32" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$109">
+<via x="-25.4" y="12.7" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$110">
+<via x="-25.4" y="15.24" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$111">
+<via x="-25.4" y="17.78" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$112">
+<via x="-25.4" y="20.32" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$113">
+<via x="-25.4" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="-26.223" y="7.493"/>
+<vertex x="-26.223" y="10.16"/>
+<vertex x="-24.577" y="10.16"/>
+<vertex x="-24.577" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$114">
+<via x="-22.86" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="-23.683" y="7.493"/>
+<vertex x="-23.683" y="10.16"/>
+<vertex x="-22.037" y="10.16"/>
+<vertex x="-22.037" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$115">
+<via x="-20.32" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="-21.143" y="7.493"/>
+<vertex x="-21.143" y="10.16"/>
+<vertex x="-19.497" y="10.16"/>
+<vertex x="-19.497" y="7.493"/>
+</polygon>
+</signal>
+<signal name="S$116">
+<polygon width="0.254" layer="16">
+<vertex x="-10.983" y="3.683"/>
+<vertex x="-10.983" y="5.207"/>
+<vertex x="-9.337" y="5.207"/>
+<vertex x="-9.337" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$117">
+<polygon width="0.254" layer="16">
+<vertex x="-13.523" y="3.683"/>
+<vertex x="-13.523" y="5.207"/>
+<vertex x="-11.877" y="5.207"/>
+<vertex x="-11.877" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$118">
+<polygon width="0.254" layer="16">
+<vertex x="-16.063" y="3.683"/>
+<vertex x="-16.063" y="5.207"/>
+<vertex x="-14.417" y="5.207"/>
+<vertex x="-14.417" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$119">
+<polygon width="0.254" layer="16">
+<vertex x="-18.603" y="3.683"/>
+<vertex x="-18.603" y="5.207"/>
+<vertex x="-16.957" y="5.207"/>
+<vertex x="-16.957" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$120">
+<polygon width="0.254" layer="16">
+<vertex x="-21.143" y="3.683"/>
+<vertex x="-21.143" y="5.207"/>
+<vertex x="-19.497" y="5.207"/>
+<vertex x="-19.497" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$121">
+<polygon width="0.254" layer="16">
+<vertex x="-23.683" y="3.683"/>
+<vertex x="-23.683" y="5.207"/>
+<vertex x="-22.037" y="5.207"/>
+<vertex x="-22.037" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$122">
+<polygon width="0.254" layer="16">
+<vertex x="-26.223" y="3.683"/>
+<vertex x="-26.223" y="5.207"/>
+<vertex x="-24.577" y="5.207"/>
+<vertex x="-24.577" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$123">
+<polygon width="0.254" layer="16">
+<vertex x="-28.763" y="3.683"/>
+<vertex x="-28.763" y="5.207"/>
+<vertex x="-27.117" y="5.207"/>
+<vertex x="-27.117" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$124">
+<polygon width="0.254" layer="16">
+<vertex x="11.877" y="3.683"/>
+<vertex x="11.877" y="5.207"/>
+<vertex x="13.523" y="5.207"/>
+<vertex x="13.523" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$125">
+<polygon width="0.254" layer="16">
+<vertex x="9.337" y="3.683"/>
+<vertex x="9.337" y="5.207"/>
+<vertex x="10.983" y="5.207"/>
+<vertex x="10.983" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$126">
+<polygon width="0.254" layer="16">
+<vertex x="16.957" y="3.683"/>
+<vertex x="16.957" y="5.207"/>
+<vertex x="18.603" y="5.207"/>
+<vertex x="18.603" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$127">
+<polygon width="0.254" layer="16">
+<vertex x="14.417" y="3.683"/>
+<vertex x="14.417" y="5.207"/>
+<vertex x="16.063" y="5.207"/>
+<vertex x="16.063" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$128">
+<polygon width="0.254" layer="16">
+<vertex x="22.037" y="3.683"/>
+<vertex x="22.037" y="5.207"/>
+<vertex x="23.683" y="5.207"/>
+<vertex x="23.683" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$129">
+<polygon width="0.254" layer="16">
+<vertex x="19.497" y="3.683"/>
+<vertex x="19.497" y="5.207"/>
+<vertex x="21.143" y="5.207"/>
+<vertex x="21.143" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$130">
+<polygon width="0.254" layer="16">
+<vertex x="27.117" y="3.683"/>
+<vertex x="27.117" y="5.207"/>
+<vertex x="28.763" y="5.207"/>
+<vertex x="28.763" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$131">
+<polygon width="0.254" layer="16">
+<vertex x="24.577" y="3.683"/>
+<vertex x="24.577" y="5.207"/>
+<vertex x="26.223" y="5.207"/>
+<vertex x="26.223" y="3.683"/>
+</polygon>
+</signal>
+<signal name="S$1">
+<via x="0" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+<polygon width="0.254" layer="16">
+<vertex x="-0.823" y="7.493"/>
+<vertex x="-0.823" y="10.16"/>
+<vertex x="0.823" y="10.16"/>
+<vertex x="0.823" y="7.493"/>
 </polygon>
 </signal>
 <signal name="S$10">
 <polygon width="0.254" layer="16">
-<vertex x="-8.22" y="4"/>
-<vertex x="-7.02" y="4"/>
-<vertex x="-7.02" y="5.3"/>
-<vertex x="-8.22" y="5.3"/>
+<vertex x="-0.823" y="3.683"/>
+<vertex x="-0.823" y="5.207"/>
+<vertex x="0.823" y="5.207"/>
+<vertex x="0.823" y="3.683"/>
 </polygon>
 </signal>
 <signal name="S$11">
+<via x="-2.54" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
 <polygon width="0.254" layer="16">
-<vertex x="-5.68" y="4"/>
-<vertex x="-4.48" y="4"/>
-<vertex x="-4.48" y="5.3"/>
-<vertex x="-5.68" y="5.3"/>
-</polygon>
-</signal>
-<signal name="S$12">
-<polygon width="0.254" layer="16">
-<vertex x="-3.14" y="4"/>
-<vertex x="-1.94" y="4"/>
-<vertex x="-1.94" y="5.3"/>
-<vertex x="-3.14" y="5.3"/>
-</polygon>
-</signal>
-<signal name="S$13">
-<polygon width="0.254" layer="16">
-<vertex x="-20.92" y="4"/>
-<vertex x="-19.72" y="4"/>
-<vertex x="-19.72" y="5.3"/>
-<vertex x="-20.92" y="5.3"/>
-</polygon>
-</signal>
-<signal name="S$14">
-<polygon width="0.254" layer="16">
-<vertex x="-18.38" y="4"/>
-<vertex x="-17.18" y="4"/>
-<vertex x="-17.18" y="5.3"/>
-<vertex x="-18.38" y="5.3"/>
-</polygon>
-</signal>
-<signal name="S$15">
-<polygon width="0.254" layer="16">
-<vertex x="-15.84" y="4"/>
-<vertex x="-14.64" y="4"/>
-<vertex x="-14.64" y="5.3"/>
-<vertex x="-15.84" y="5.3"/>
+<vertex x="-3.363" y="7.493"/>
+<vertex x="-3.363" y="10.16"/>
+<vertex x="-1.717" y="10.16"/>
+<vertex x="-1.717" y="7.493"/>
 </polygon>
 </signal>
 <signal name="S$16">
 <polygon width="0.254" layer="16">
-<vertex x="-13.3" y="4"/>
-<vertex x="-12.1" y="4"/>
-<vertex x="-12.1" y="5.3"/>
-<vertex x="-13.3" y="5.3"/>
+<vertex x="-3.363" y="3.683"/>
+<vertex x="-3.363" y="5.207"/>
+<vertex x="-1.717" y="5.207"/>
+<vertex x="-1.717" y="3.683"/>
 </polygon>
 </signal>
-<signal name="S$17">
+<signal name="S$26">
+<via x="-5.08" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
 <polygon width="0.254" layer="16">
-<vertex x="-31.08" y="4"/>
-<vertex x="-29.88" y="4"/>
-<vertex x="-29.88" y="5.3"/>
-<vertex x="-31.08" y="5.3"/>
+<vertex x="-5.903" y="7.493"/>
+<vertex x="-5.903" y="10.16"/>
+<vertex x="-4.257" y="10.16"/>
+<vertex x="-4.257" y="7.493"/>
 </polygon>
 </signal>
-<signal name="S$18">
+<signal name="S$46">
 <polygon width="0.254" layer="16">
-<vertex x="-28.54" y="4"/>
-<vertex x="-27.34" y="4"/>
-<vertex x="-27.34" y="5.3"/>
-<vertex x="-28.54" y="5.3"/>
+<vertex x="-5.903" y="3.683"/>
+<vertex x="-5.903" y="5.207"/>
+<vertex x="-4.257" y="5.207"/>
+<vertex x="-4.257" y="3.683"/>
 </polygon>
 </signal>
-<signal name="S$19">
+<signal name="S$51">
+<via x="2.54" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
 <polygon width="0.254" layer="16">
-<vertex x="-26" y="4"/>
-<vertex x="-24.8" y="4"/>
-<vertex x="-24.8" y="5.3"/>
-<vertex x="-26" y="5.3"/>
+<vertex x="1.717" y="7.493"/>
+<vertex x="1.717" y="10.16"/>
+<vertex x="3.363" y="10.16"/>
+<vertex x="3.363" y="7.493"/>
 </polygon>
 </signal>
-<signal name="S$20">
+<signal name="S$132">
 <polygon width="0.254" layer="16">
-<vertex x="-23.46" y="4"/>
-<vertex x="-22.26" y="4"/>
-<vertex x="-22.26" y="5.3"/>
-<vertex x="-23.46" y="5.3"/>
+<vertex x="1.717" y="3.683"/>
+<vertex x="1.717" y="5.207"/>
+<vertex x="3.363" y="5.207"/>
+<vertex x="3.363" y="3.683"/>
 </polygon>
 </signal>
-<signal name="S$21">
+<signal name="S$133">
+<via x="5.08" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
 <polygon width="0.254" layer="16">
-<vertex x="19.72" y="4"/>
-<vertex x="20.92" y="4"/>
-<vertex x="20.92" y="5.3"/>
-<vertex x="19.72" y="5.3"/>
+<vertex x="4.257" y="7.493"/>
+<vertex x="4.257" y="10.16"/>
+<vertex x="5.903" y="10.16"/>
+<vertex x="5.903" y="7.493"/>
 </polygon>
 </signal>
-<signal name="S$22">
+<signal name="S$134">
 <polygon width="0.254" layer="16">
-<vertex x="22.26" y="4"/>
-<vertex x="23.46" y="4"/>
-<vertex x="23.46" y="5.3"/>
-<vertex x="22.26" y="5.3"/>
+<vertex x="4.257" y="3.683"/>
+<vertex x="4.257" y="5.207"/>
+<vertex x="5.903" y="5.207"/>
+<vertex x="5.903" y="3.683"/>
 </polygon>
 </signal>
-<signal name="S$23">
+<signal name="S$135">
 <polygon width="0.254" layer="16">
-<vertex x="24.8" y="4"/>
-<vertex x="26" y="4"/>
-<vertex x="26" y="5.3"/>
-<vertex x="24.8" y="5.3"/>
+<vertex x="-8.443" y="3.683"/>
+<vertex x="-8.443" y="5.207"/>
+<vertex x="-6.797" y="5.207"/>
+<vertex x="-6.797" y="3.683"/>
 </polygon>
 </signal>
-<signal name="S$24">
+<signal name="S$136">
 <polygon width="0.254" layer="16">
-<vertex x="27.34" y="4"/>
-<vertex x="28.54" y="4"/>
-<vertex x="28.54" y="5.3"/>
-<vertex x="27.34" y="5.3"/>
+<vertex x="6.797" y="3.683"/>
+<vertex x="6.797" y="5.207"/>
+<vertex x="8.443" y="5.207"/>
+<vertex x="8.443" y="3.683"/>
 </polygon>
 </signal>
-<signal name="S$25">
-<polygon width="0.254" layer="16">
-<vertex x="29.88" y="4"/>
-<vertex x="31.08" y="4"/>
-<vertex x="31.08" y="5.3"/>
-<vertex x="29.88" y="5.3"/>
-</polygon>
+<signal name="S$137">
+<via x="-7.62" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
+</signal>
+<signal name="S$138">
+<via x="7.62" y="10.16" extent="1-16" drill="1" diameter="1.8"/>
 </signal>
 </signals>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
