@@ -2,6 +2,7 @@
 An universal sophisticated USB-serial converter
 Over the course of time I had to work with many different devices which had to be connected via a kind of serial interface. There are lots of different cheap USB-serial adapters available, but no adapter was including all features I needed in a single device. Every USB-serial adapter has in common the USB Controller. So I came up with the idea having a masterboard providing all the common features like USB interface, isolation and diagnostic elements. The most used interfaces (RS232, RS485, TTL UART, TTY current loop & LIN) are build up on slave modules which can be plugged into the mainboard. If a custom interface is needed, there is an EAGLE lib available making it easy to it on your own. 
 
+<img src="toolbox.jpg">
 <img src="allserial.jpg" height="330"> <img src="boards.jpg" height="330">
 
 ## Features
@@ -24,12 +25,13 @@ Over the course of time I had to work with many different devices which had to b
 * [TTL](4_TTL/)
 * [TTY current loop](5_TTY/)
 * [LIN](6_LIN/)
+* [eBus](8_eBus/)
+* [1wire (with DS2480B)](9_1wire/)
+* [Arduino pro mini clone for custom interfaces](10_ARDUINO/)
+* [Programmer for ESP8266 (auto reset&boot)](11_ESP/)
 
 # Modules (planned)
 * mBus master
-* eBus
-* 1wire with DS2480B
-* arduino nano clone
 
 # Software
 * [hterm](http://www.der-hammer.info/terminal/) (windows)
