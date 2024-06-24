@@ -15448,6 +15448,7 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 129.54 163.83 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15455,7 +15456,7 @@
 		(dnp no)
 		(uuid "dc1155d3-e458-485d-8e16-99a9e905a81b")
 		(property "Reference" "S1"
-			(at 134.62 162.56 90)
+			(at 134.62 165.1 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15464,7 +15465,7 @@
 			)
 		)
 		(property "Value" "31-XX"
-			(at 126.365 167.64 90)
+			(at 126.365 160.02 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15473,7 +15474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "WiFiMaster:B3F-31XX"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
 			(at 124.46 163.83 0)
 			(effects
 				(font

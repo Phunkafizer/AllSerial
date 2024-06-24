@@ -619,9 +619,9 @@
 		(remove_unused_layers no)
 		(uuid "e34c7ea1-5a27-4b45-9033-f4b51e22c37a")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x10_P2.54mm_Horizontal.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x10_P2.54mm_Horizontal.wrl"
 		(offset
-			(xyz 11.43 -2.54 0)
+			(xyz 11.43 -3.04 0)
 		)
 		(scale
 			(xyz 1 1 1)

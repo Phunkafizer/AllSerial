@@ -4041,7 +4041,7 @@
 			(pintype "passive+no_connect")
 			(uuid "f8e42afa-265d-4b61-b1c6-332165bb4a1f")
 		)
-		(model "${KICAD8_3RD_PARTY}/packages3d/Metz/31182110.stp"
+		(model "${KICAD_USER_3D_DIR}/Metz/31182110.stp"
 			(offset
 				(xyz -17.5 -1.6 3.1)
 			)
