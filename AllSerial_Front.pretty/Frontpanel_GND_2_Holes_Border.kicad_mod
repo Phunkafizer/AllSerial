@@ -1,4 +1,4 @@
-(footprint "Frontpanel_GND_2_Holes_Front"
+(footprint "Frontpanel_GND_2_Holes_Border"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -2648,18 +2648,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ea4a0ed7-154b-4472-8cd9-3de969495a05")
-	)
-	(fp_text user "AllSerial"
-		(at -33.75 -4 0)
-		(layer "F.Cu")
-		(uuid "31edf0e4-196e-455d-ba64-38f57301fd23")
-		(effects
-			(font
-				(size 1.1303 1.1303)
-				(thickness 0.1397)
-			)
-			(justify left bottom)
-		)
 	)
 	(fp_text user "AllSerial"
 		(at -33.75 -4 0)
