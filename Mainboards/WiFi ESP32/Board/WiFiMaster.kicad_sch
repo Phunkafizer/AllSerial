@@ -8442,6 +8442,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 33.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0da4c333-5643-4580-9a5a-c939176ae604")
 		)
@@ -8713,7 +8722,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC order #" "C114531"
+		(property "LCSC" "C114531"
 			(at 129.54 151.13 0)
 			(effects
 				(font
@@ -8795,6 +8804,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17437"
 			(at 151.13 72.39 0)
 			(effects
 				(font
@@ -9004,7 +9022,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC order #" "C57759"
+		(property "LCSC" "C57759"
 			(at 147.32 152.4 0)
 			(effects
 				(font
@@ -9196,7 +9214,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "22"
 			(at 172.72 74.93 90)
 			(effects
 				(font
@@ -9224,6 +9242,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17561"
 			(at 168.91 72.39 0)
 			(effects
 				(font
@@ -9366,6 +9393,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 71.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d62c946e-4beb-45c4-b393-bc8ff13298b7")
 		)
@@ -9494,6 +9530,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 234.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 234.95 58.42 0)
 			(effects
 				(font
@@ -9839,6 +9884,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 219.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a4cd560-20dd-45ad-8977-cdf0d9ebae83")
 		)
@@ -10107,6 +10161,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3014043"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "071185c2-ae27-4b5e-9498-7d48d86d54b2")
 		)
@@ -10195,7 +10258,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4589d18e-d38a-4bd1-9d72-c794fec63cc9")
 		(property "Reference" "J1"
@@ -10266,7 +10329,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "45d94a2f-97e4-474d-90b0-02ddd83dba1c")
 		(property "Reference" "X1"
 			(at 260.858 148.59 0)
@@ -10388,6 +10451,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17437"
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7ac0fa3-968d-435a-b1fe-e3c06c21c236")
 		)
@@ -10448,6 +10520,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C411814"
 			(at 52.07 66.04 0)
 			(effects
 				(font
@@ -10602,6 +10683,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 234.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d48ec240-69f9-41f1-a304-37990859d1c3")
 		)
@@ -10663,6 +10753,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -10873,6 +10972,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C124406"
+			(at 274.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "d3a4d017-f0d8-40c0-8402-a99f15ac6b2b")
 		)
@@ -10994,6 +11102,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C703083"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f344ad0-a120-4338-a38c-7392e1015262")
 		)
@@ -11104,7 +11221,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LED3MM"
+		(property "Value" "yellow"
 			(at 164.592 55.245 90)
 			(effects
 				(font
@@ -11114,7 +11231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 160.02 60.96 0)
 			(effects
 				(font
@@ -11133,6 +11250,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965802"
 			(at 160.02 60.96 0)
 			(effects
 				(font
@@ -11229,7 +11355,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "63454ca8-d445-4318-b188-7e1d4718162b")
 		(property "Reference" "J2"
@@ -11333,7 +11459,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LED3MM"
+		(property "Value" "green"
 			(at 155.702 55.245 90)
 			(effects
 				(font
@@ -11343,7 +11469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 151.13 60.96 0)
 			(effects
 				(font
@@ -11362,6 +11488,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965805"
 			(at 151.13 60.96 0)
 			(effects
 				(font
@@ -11505,6 +11640,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf2def27-05d2-4736-a98e-137e223d3734")
 		)
@@ -11632,6 +11776,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 118.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 118.11 33.02 0)
 			(effects
 				(font
@@ -11775,6 +11928,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C74764"
+			(at 43.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "437b8cc7-4b9d-4e7f-81de-36744a007631")
 		)
@@ -11836,6 +11998,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 92.71 33.02 0)
 			(effects
 				(font
@@ -11914,6 +12085,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3697b280-608b-4e66-a807-fc172265493e")
 		)
@@ -11976,6 +12156,15 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD"
+			(at 67.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C701344"
 			(at 67.31 148.59 0)
 			(effects
 				(font
@@ -12267,7 +12456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 205.74 151.13 0)
 			(effects
 				(font
@@ -12286,6 +12475,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27643"
 			(at 208.28 151.13 0)
 			(effects
 				(font
@@ -12393,7 +12591,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LED3MM"
+		(property "Value" "red"
 			(at 146.812 55.245 90)
 			(effects
 				(font
@@ -12403,7 +12601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 142.24 60.96 0)
 			(effects
 				(font
@@ -12422,6 +12620,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965799"
 			(at 142.24 60.96 0)
 			(effects
 				(font
@@ -12703,7 +12910,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC order #" "C17633"
+		(property "LCSC" "C17633"
 			(at 161.29 152.4 0)
 			(effects
 				(font
@@ -13001,6 +13208,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C86816"
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1989d8d0-8471-434e-8b54-8637c577ed60")
 		)
@@ -13063,6 +13279,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C410026"
 			(at 83.82 63.5 0)
 			(effects
 				(font
@@ -13207,6 +13432,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 245.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15cb0ecf-8eef-4d1f-b6eb-2d194e564cca")
 		)
@@ -13268,6 +13502,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86816"
 			(at 93.98 64.77 0)
 			(effects
 				(font
@@ -13364,7 +13607,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a60a3a7d-d27c-493c-b106-0b4b425870b6")
 		(property "Reference" "X1"
 			(at 245.618 148.59 0)
@@ -13551,6 +13794,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C150796"
+			(at 160.02 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6eb009a-92b8-4711-a5b7-424b147d0428")
 		)
@@ -13728,7 +13980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 205.74 78.74 0)
 			(effects
 				(font
@@ -13747,6 +13999,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27643"
 			(at 208.28 78.74 0)
 			(effects
 				(font
@@ -14160,6 +14421,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C124406"
+			(at 274.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "db3a3798-051e-4568-bd5e-72622f178d30")
 		)
@@ -14275,6 +14545,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C91186"
 			(at 172.72 33.02 0)
 			(effects
 				(font
@@ -14429,6 +14708,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 24.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a90cef99-ec32-4f4b-9be3-17869bd17b74")
 		)
@@ -14490,6 +14778,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17437"
 			(at 160.02 72.39 0)
 			(effects
 				(font
@@ -14567,6 +14864,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1a38bac-659b-46d7-97a2-6820b550f61b")
 		)
@@ -14600,7 +14906,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LED3MM"
+		(property "Value" "blue"
 			(at 173.482 55.245 90)
 			(effects
 				(font
@@ -14610,7 +14916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 168.91 60.96 0)
 			(effects
 				(font
@@ -14629,6 +14935,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 168.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965807"
 			(at 168.91 60.96 0)
 			(effects
 				(font
@@ -14699,6 +15014,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2887276"
 			(at 57.15 104.14 0)
 			(effects
 				(font
@@ -14833,6 +15157,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 82.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 82.55 33.02 0)
 			(effects
 				(font
@@ -15061,7 +15394,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d3bc92ed-77b0-41bc-8ea1-91c694c18d4a")
 		(property "Reference" "M1"
@@ -15501,6 +15834,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2837543"
+			(at 129.54 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fd412f3-75a0-4fb3-bfaf-2fb3e94f3ce0")
 		)
@@ -15570,6 +15912,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C146799"
+			(at 105.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "689edbde-e417-4103-9956-1ffe42e71fe7")
 		)
@@ -15595,7 +15946,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dd2090c3-79d0-498b-b759-80967c2542f2")
 		(property "Reference" "X1"
 			(at 255.778 148.59 0)
@@ -15717,6 +16068,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0beb4b2-8221-4438-a2cb-86d2dc1f0fa3")
 		)
@@ -15778,6 +16138,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 219.71 106.68 0)
 			(effects
 				(font
@@ -15855,7 +16224,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC order #" "C15850"
+		(property "LCSC" "C15850"
 			(at 137.16 157.48 0)
 			(effects
 				(font
@@ -15898,7 +16267,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "efb78f81-b7d6-4de2-84bf-22b5cdf3bea5")
 		(property "Reference" "X1"
 			(at 250.698 148.59 0)
@@ -16012,6 +16381,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C91186"
 			(at 147.32 33.02 0)
 			(effects
 				(font

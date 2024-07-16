@@ -10712,7 +10712,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C93657"
+		(property "LCSC" "C93657"
 			(at 129.54 154.94 0)
 			(effects
 				(font
@@ -10922,7 +10922,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C17414"
+		(property "LCSC" "C17414"
 			(at 254 144.78 0)
 			(effects
 				(font
@@ -11066,7 +11066,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C93657"
+		(property "LCSC" "C93657"
 			(at 119.38 154.94 0)
 			(effects
 				(font
@@ -11408,7 +11408,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C14663"
+		(property "LCSC" "C14663"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -11552,7 +11552,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C26537"
+		(property "LCSC" "C26537"
 			(at 124.46 25.4 0)
 			(effects
 				(font
@@ -11634,7 +11634,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C1710"
+		(property "LCSC" "C1710"
 			(at 27.94 85.09 0)
 			(effects
 				(font
@@ -11854,7 +11854,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C2986030"
+		(property "LCSC" "C2986030"
 			(at 139.7 153.67 0)
 			(effects
 				(font
@@ -11933,7 +11933,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 127 0)
 			(effects
 				(font
@@ -12054,7 +12054,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 142.24 0)
 			(effects
 				(font
@@ -12175,7 +12175,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 111.76 0)
 			(effects
 				(font
@@ -12296,7 +12296,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 254 81.28 0)
 			(effects
 				(font
@@ -12417,7 +12417,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 33.02 0)
 			(effects
 				(font
@@ -12537,7 +12537,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C17414"
+		(property "LCSC" "C17414"
 			(at 238.76 144.78 0)
 			(effects
 				(font
@@ -12682,7 +12682,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C124406"
+		(property "LCSC" "C124406"
 			(at 271.78 127 0)
 			(effects
 				(font
@@ -12815,7 +12815,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C124406"
+		(property "LCSC" "C124406"
 			(at 269.24 48.26 0)
 			(effects
 				(font
@@ -13013,7 +13013,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C14663"
+		(property "LCSC" "C14663"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -13091,7 +13091,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C2918489"
+		(property "LCSC" "C2918489"
 			(at 60.96 125.73 0)
 			(effects
 				(font
@@ -13169,7 +13169,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C90544"
+		(property "LCSC" "C90544"
 			(at 109.22 31.75 0)
 			(effects
 				(font
@@ -13587,7 +13587,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C2986060"
+		(property "LCSC" "C2986060"
 			(at 149.86 153.67 0)
 			(effects
 				(font
@@ -13669,7 +13669,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C5261058"
+		(property "LCSC" "C5261058"
 			(at 101.6 83.82 0)
 			(effects
 				(font
@@ -13831,7 +13831,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C14663"
+		(property "LCSC" "C14663"
 			(at 68.58 125.73 0)
 			(effects
 				(font
@@ -13975,7 +13975,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C14663"
+		(property "LCSC" "C14663"
 			(at 213.36 87.63 0)
 			(effects
 				(font
@@ -14384,7 +14384,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C5197386"
+		(property "LCSC" "C5197386"
 			(at 40.64 132.08 0)
 			(effects
 				(font
@@ -14607,7 +14607,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C150796"
+		(property "LCSC" "C150796"
 			(at 111.76 55.88 0)
 			(effects
 				(font
@@ -14886,7 +14886,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C1710"
+		(property "LCSC" "C1710"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -14964,7 +14964,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C111768"
+		(property "LCSC" "C111768"
 			(at 99.06 62.23 0)
 			(effects
 				(font
@@ -15177,7 +15177,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C93657"
+		(property "LCSC" "C93657"
 			(at 149.86 165.1 0)
 			(effects
 				(font
@@ -15520,7 +15520,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C17414"
+		(property "LCSC" "C17414"
 			(at 91.44 101.6 0)
 			(effects
 				(font
@@ -15598,7 +15598,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C8690"
+		(property "LCSC" "C8690"
 			(at 91.44 137.16 0)
 			(effects
 				(font
@@ -15814,7 +15814,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C93657"
+		(property "LCSC" "C93657"
 			(at 139.7 165.1 0)
 			(effects
 				(font
@@ -15892,7 +15892,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C14663"
+		(property "LCSC" "C14663"
 			(at 165.1 59.69 0)
 			(effects
 				(font
@@ -15970,7 +15970,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C14663"
+		(property "LCSC" "C14663"
 			(at 165.1 31.75 0)
 			(effects
 				(font
@@ -16114,7 +16114,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C14663"
+		(property "LCSC" "C14663"
 			(at 99.06 31.75 0)
 			(effects
 				(font
@@ -16146,7 +16146,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000b686635d")
 		(property "Reference" "IC3"
 			(at 27.94 179.705 0)
@@ -16477,7 +16477,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C2986058"
+		(property "LCSC" "C2986058"
 			(at 129.54 165.1 0)
 			(effects
 				(font
@@ -16632,7 +16632,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C2986063"
+		(property "LCSC" "C2986063"
 			(at 119.38 165.1 0)
 			(effects
 				(font
@@ -16710,7 +16710,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C17414"
+		(property "LCSC" "C17414"
 			(at 243.84 144.78 0)
 			(effects
 				(font
@@ -16788,7 +16788,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C14663"
+		(property "LCSC" "C14663"
 			(at 213.36 31.75 0)
 			(effects
 				(font
@@ -16998,7 +16998,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C76817"
+		(property "LCSC" "C76817"
 			(at 68.58 81.28 0)
 			(effects
 				(font
@@ -17077,7 +17077,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C3152182"
+		(property "LCSC" "C3152182"
 			(at 20.32 86.36 0)
 			(effects
 				(font
@@ -17156,7 +17156,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C429962"
+		(property "LCSC" "C429962"
 			(at 132.08 96.52 0)
 			(effects
 				(font
@@ -17258,7 +17258,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C1710"
+		(property "LCSC" "C1710"
 			(at 60.96 90.17 0)
 			(effects
 				(font
@@ -17336,7 +17336,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C90544"
+		(property "LCSC" "C90544"
 			(at 137.16 31.75 0)
 			(effects
 				(font
@@ -17414,7 +17414,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C17513"
+		(property "LCSC" "C17513"
 			(at 101.6 101.6 0)
 			(effects
 				(font
@@ -17624,7 +17624,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C17414"
+		(property "LCSC" "C17414"
 			(at 248.92 144.78 0)
 			(effects
 				(font
@@ -17655,7 +17655,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000ee6a8c4f")
 		(property "Reference" "X2"
 			(at 232.918 66.04 0)
@@ -17730,7 +17730,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000ee6a8c53")
 		(property "Reference" "X2"
 			(at 240.538 66.04 0)
@@ -17805,7 +17805,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000ee6a8c57")
 		(property "Reference" "X2"
 			(at 245.618 66.04 0)
@@ -17880,7 +17880,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000ee6a8c5b")
 		(property "Reference" "X2"
 			(at 260.858 68.58 0)
@@ -18002,7 +18002,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C111768"
+		(property "LCSC" "C111768"
 			(at 124.46 62.23 0)
 			(effects
 				(font
@@ -18081,7 +18081,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 157.48 0)
 			(effects
 				(font
@@ -18202,7 +18202,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 121.92 0)
 			(effects
 				(font
@@ -18323,7 +18323,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 88.9 0)
 			(effects
 				(font
@@ -18444,7 +18444,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 147.32 0)
 			(effects
 				(font
@@ -18565,7 +18565,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 137.16 0)
 			(effects
 				(font
@@ -18752,7 +18752,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -18873,7 +18873,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 116.84 0)
 			(effects
 				(font
@@ -18994,7 +18994,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 132.08 0)
 			(effects
 				(font
@@ -19115,7 +19115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 152.4 0)
 			(effects
 				(font
@@ -19236,7 +19236,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C208656"
+		(property "LCSC" "C208656"
 			(at 190.5 60.96 0)
 			(effects
 				(font
@@ -19554,7 +19554,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C17414"
+		(property "LCSC" "C17414"
 			(at 231.14 104.14 0)
 			(effects
 				(font
@@ -19585,7 +19585,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000fa55f29d")
 		(property "Reference" "IC4"
 			(at 78.74 179.705 0)
@@ -19773,7 +19773,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C14663"
+		(property "LCSC" "C14663"
 			(at 68.58 156.21 0)
 			(effects
 				(font
@@ -19870,7 +19870,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3ad1d9e7-f29a-4cca-bb32-ebc31f374b13")
 		(property "Reference" "M1"
@@ -20047,7 +20047,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C27834"
+		(property "LCSC" "C27834"
 			(at 52.07 33.02 0)
 			(effects
 				(font
@@ -20192,7 +20192,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS order #" "C27834"
+		(property "LCSC" "C27834"
 			(at 52.07 27.94 0)
 			(effects
 				(font
@@ -20394,6 +20394,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2927037"
 			(at 27.94 39.37 0)
 			(effects
 				(font
