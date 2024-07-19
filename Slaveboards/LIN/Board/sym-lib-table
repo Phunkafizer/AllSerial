@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "6_LIN-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/6_LIN-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "AllSerial")(type "KiCad")(uri "$(KIPRJMOD)/../../../AllSerial.kicad_sym")(options "")(descr ""))
+)

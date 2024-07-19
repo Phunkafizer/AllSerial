@@ -1,0 +1,115 @@
+(footprint "Metz_PT11308HBBN_182" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "Sheetfile" "AllSerial_RS485_RS422.kicad_sch")
+  (property "Sheetname" "")
+  (property "ki_description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)")
+  (property "ki_keywords" "connector")
+  (attr through_hole)
+  (fp_text reference "X2" (at -18 -2 -180) (layer "F.SilkS")
+      (effects (font (size 1.2065 1.2065) (thickness 0.09652)) (justify left bottom))
+    (tstamp 215f2c5c-5376-45ac-a928-38c1a42891b8)
+  )
+  (fp_text value "PT11310HBBN_182" (at -4.63 4.445 180) (layer "F.Fab")
+      (effects (font (size 0.9652 0.9652) (thickness 0.077216)) (justify left bottom))
+    (tstamp bd7d5178-7514-4f10-9d49-8c94c6b99959)
+  )
+  (fp_line (start -14.8 -1.6) (end 14.8 -1.6)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp c9e9000b-de44-4555-a90e-0bc576a69180))
+  (fp_line (start -14.8 9.6) (end -14.8 -1.6)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 6c6c6722-b213-4336-b32e-ef08c3bfef6b))
+  (fp_line (start 14.8 -1.6) (end 14.8 9.6)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 9da2c383-a397-4a67-ac2a-5db0890ecbb0))
+  (fp_line (start 14.8 9.6) (end -14.8 9.6)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp f69c476e-b1c4-4eff-81ef-faa0829a6e8c))
+  (fp_line (start -14.8 11.6) (end -14.8 22.6)
+    (stroke (width 0.127) (type dash)) (layer "Cmts.User") (tstamp ab13a22b-da69-4874-8fd0-bf81de16afe1))
+  (fp_line (start 14.8 11.6) (end 14.8 22.6)
+    (stroke (width 0.127) (type dash)) (layer "Cmts.User") (tstamp 250fbb4e-2a5e-44e4-b880-6f2c1bbf30e5))
+  (fp_line (start 14.8 22.6) (end -14.8 22.6)
+    (stroke (width 0.127) (type dash)) (layer "Cmts.User") (tstamp 36b0a8c7-6069-45c5-9e88-3762b61dbed9))
+  (fp_poly
+    (pts
+      (xy -13.4 1.2)
+      (xy -11 1.2)
+      (xy -11 -1.2)
+      (xy -13.4 -1.2)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 566a4ef4-670d-4f8e-b66e-9e84e57a6993))
+  (fp_poly
+    (pts
+      (xy -9.9 1.2)
+      (xy -7.5 1.2)
+      (xy -7.5 -1.2)
+      (xy -9.9 -1.2)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 55f1ae1a-8786-484c-ba6a-fa7f3d3e64bf))
+  (fp_poly
+    (pts
+      (xy -6.4 1.2)
+      (xy -4 1.2)
+      (xy -4 -1.2)
+      (xy -6.4 -1.2)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 31a1a3ab-3838-47e8-bc56-445f58feae01))
+  (fp_poly
+    (pts
+      (xy -2.9 1.2)
+      (xy -0.5 1.2)
+      (xy -0.5 -1.2)
+      (xy -2.9 -1.2)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 2414fbfe-b7d8-4001-b53d-eb7404ede5d3))
+  (fp_poly
+    (pts
+      (xy 0.6 1.2)
+      (xy 3 1.2)
+      (xy 3 -1.2)
+      (xy 0.6 -1.2)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp f02c89ce-e1e9-47ba-b729-d04f5930f113))
+  (fp_poly
+    (pts
+      (xy 4.1 1.2)
+      (xy 6.5 1.2)
+      (xy 6.5 -1.2)
+      (xy 4.1 -1.2)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 9eb45be1-219e-4df1-8702-34684b037375))
+  (fp_poly
+    (pts
+      (xy 7.6 1.2)
+      (xy 10 1.2)
+      (xy 10 -1.2)
+      (xy 7.6 -1.2)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 47f5eab2-3931-4fdb-8b87-c09c46e84f90))
+  (fp_poly
+    (pts
+      (xy 11.1 1.2)
+      (xy 13.5 1.2)
+      (xy 13.5 -1.2)
+      (xy 11.1 -1.2)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 9c28d29c-8c58-4893-940b-ac09546a913f))
+  (pad "1" thru_hole rect (at -12.2 0 90) (size 2.1844 2.1844) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp b61d9867-56db-46e7-bfb6-3d3dffd24afa))
+  (pad "2" thru_hole circle (at -8.7 0 90) (size 2.1844 2.1844) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp d36fe544-6152-4df0-ba02-ba73bf5d1aa7))
+  (pad "3" thru_hole circle (at -5.2 0 90) (size 2.1844 2.1844) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp f35c826f-f73e-4f19-8459-e00432bed41a))
+  (pad "4" thru_hole circle (at -1.7 0 90) (size 2.1844 2.1844) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 64dc96b2-fdf6-4cd5-bc09-842b1ea9c5a2))
+  (pad "5" thru_hole circle (at 1.8 0 90) (size 2.1844 2.1844) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 7628acaf-a41c-4cb5-ad82-35b6b01c1c18))
+  (pad "6" thru_hole circle (at 5.3 0 90) (size 2.1844 2.1844) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 0228e643-acb6-4e4e-8b81-fc6f2289e8f8))
+  (pad "7" thru_hole circle (at 8.8 0 90) (size 2.1844 2.1844) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp a0d94260-bee7-4493-b03c-e56dd120b74f))
+  (pad "8" thru_hole circle (at 12.3 0 90) (size 2.1844 2.1844) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 67af76ce-1377-4e51-aff2-530e19010952))
+  (model "${KICAD_USER_3D_DIR}/Metz/31182108.stp"
+    (offset (xyz -14 -1.6 3.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 180))
+  )
+)
