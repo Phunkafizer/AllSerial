@@ -1912,7 +1912,7 @@
 		(remove_unused_layers no)
 		(uuid "65d1d3d9-65d6-4783-aea2-e0be35f23122")
 	)
-	(model ":KICAD7_3DMODEL_DIR:Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Horizontal.step"
+	(model "$(KICAD8_3DMODEL_DIR)/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Horizontal.step"
 		(offset
 			(xyz 11.43 7 0)
 		)
@@ -1921,6 +1921,17 @@
 		)
 		(rotate
 			(xyz 0 0 90)
+		)
+	)
+	(model "${KICAD_USER_3D_DIR}/Fischer AKG 71 24 100 bottom half.step"
+		(offset
+			(xyz 35.8 44.8 1.85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 -180)
 		)
 	)
 )

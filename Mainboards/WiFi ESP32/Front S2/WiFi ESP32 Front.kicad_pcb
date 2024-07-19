@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.09)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -39,6 +39,45 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 154.183 114.739)
@@ -1146,6 +1185,17 @@
 			(pintype "power_in")
 			(thermal_bridge_angle 90)
 			(uuid "10d7f3d8-f564-4fb9-a4fd-18f0cc11ce47")
+		)
+		(model "${KICAD_USER_3D_DIR}/7587.stp"
+			(offset
+				(xyz 0 0 10)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 90)
+			)
 		)
 	)
 	(footprint ""
@@ -3138,7 +3188,7 @@
 		)
 		(fp_arc
 			(start 29.25 -13.576875)
-			(mid 29.259131 -13.636641)
+			(mid 29.259139 -13.636635)
 			(end 29.285718 -13.690937)
 			(stroke
 				(width 0.001)
@@ -3171,7 +3221,7 @@
 		)
 		(fp_arc
 			(start 29.285718 -10.269065)
-			(mid 29.259148 -10.323366)
+			(mid 29.259147 -10.323367)
 			(end 29.25 -10.383125)
 			(stroke
 				(width 0.001)
@@ -3215,7 +3265,7 @@
 		)
 		(fp_arc
 			(start 30.098631 -12.980006)
-			(mid 30.180274 -12.96257)
+			(mid 30.180281 -12.962576)
 			(end 30.2477 -12.913337)
 			(stroke
 				(width 0.001)
@@ -3226,7 +3276,7 @@
 		)
 		(fp_arc
 			(start 30.2477 -11.046665)
-			(mid 30.180281 -10.997415)
+			(mid 30.180274 -10.997429)
 			(end 30.098631 -10.980006)
 			(stroke
 				(width 0.001)
@@ -3237,7 +3287,7 @@
 		)
 		(fp_arc
 			(start 30.2477 -11.046665)
-			(mid 30.53504 -11.179823)
+			(mid 30.53504 -11.179723)
 			(end 30.829168 -11.062355)
 			(stroke
 				(width 0.001)
@@ -3270,7 +3320,7 @@
 		)
 		(fp_arc
 			(start 30.829168 -12.897646)
-			(mid 30.535037 -12.780118)
+			(mid 30.535038 -12.78003)
 			(end 30.247699 -12.913337)
 			(stroke
 				(width 0.001)
@@ -3281,7 +3331,7 @@
 		)
 		(fp_arc
 			(start 30.829168 -12.897646)
-			(mid 30.991011 -13.03543)
+			(mid 30.991007 -13.035435)
 			(end 31.17314 -13.145006)
 			(stroke
 				(width 0.001)
@@ -3314,7 +3364,7 @@
 		)
 		(fp_arc
 			(start 31.17314 -10.815006)
-			(mid 30.991006 -10.924569)
+			(mid 30.991008 -10.924571)
 			(end 30.829168 -11.062356)
 			(stroke
 				(width 0.001)
@@ -3325,7 +3375,7 @@
 		)
 		(fp_arc
 			(start 31.404168 -9.000006)
-			(mid 30.208293 -9.40643)
+			(mid 30.208304 -9.406439)
 			(end 29.285718 -10.269065)
 			(stroke
 				(width 0.001)
@@ -3380,7 +3430,7 @@
 		)
 		(fp_arc
 			(start 32.326868 -13.145006)
-			(mid 32.669238 -12.899238)
+			(mid 32.669227 -12.899227)
 			(end 32.915 -12.556865)
 			(stroke
 				(width 0.001)
@@ -3402,7 +3452,7 @@
 		)
 		(fp_arc
 			(start 32.36654 -9.044037)
-			(mid 32.231689 -9.018925)
+			(mid 32.231688 -9.018931)
 			(end 32.095831 -9.000006)
 			(stroke
 				(width 0.001)
@@ -3413,7 +3463,7 @@
 		)
 		(fp_arc
 			(start 32.49865 -9.139765)
-			(mid 32.442801 -9.077813)
+			(mid 32.442804 -9.077812)
 			(end 32.36654 -9.044037)
 			(stroke
 				(width 0.001)
@@ -3424,7 +3474,7 @@
 		)
 		(fp_arc
 			(start 32.596368 -23.929275)
-			(mid 32.664857 -23.981462)
+			(mid 32.664857 -23.981453)
 			(end 32.74894 -24.000005)
 			(stroke
 				(width 0.001)
@@ -3435,7 +3485,7 @@
 		)
 		(fp_arc
 			(start 32.74894 -24.000006)
-			(mid 34.870586 -23.121505)
+			(mid 34.870589 -23.121506)
 			(end 35.74944 -21.000004)
 			(stroke
 				(width 0.001)
@@ -3490,7 +3540,7 @@
 		)
 		(fp_arc
 			(start 32.751109 -0.000006)
-			(mid 32.667352 -0.018662)
+			(mid 32.667367 -0.018676)
 			(end 32.59915 -0.070725)
 			(stroke
 				(width 0.001)
@@ -3501,7 +3551,7 @@
 		)
 		(fp_arc
 			(start 32.75295 -9.126637)
-			(mid 32.759775 -9.178395)
+			(mid 32.759789 -9.178394)
 			(end 32.77974 -9.226637)
 			(stroke
 				(width 0.001)
@@ -3545,7 +3595,7 @@
 		)
 		(fp_arc
 			(start 32.95295 -7.220006)
-			(mid 32.811563 -7.278603)
+			(mid 32.811528 -7.278597)
 			(end 32.75295 -7.420006)
 			(stroke
 				(width 0.001)
@@ -3622,7 +3672,7 @@
 		)
 		(fp_arc
 			(start 34.9604 -9.000006)
-			(mid 35.0286 -8.988019)
+			(mid 35.028596 -8.988014)
 			(end 35.088618 -8.953487)
 			(stroke
 				(width 0.001)
@@ -3677,7 +3727,7 @@
 		)
 		(fp_arc
 			(start 35.088581 -9.058575)
-			(mid 35.023693 -9.015234)
+			(mid 35.023694 -9.015223)
 			(end 34.947159 -9.000005)
 			(stroke
 				(width 0.001)
@@ -3732,7 +3782,7 @@
 		)
 		(fp_arc
 			(start 35.689059 -6.946987)
-			(mid 35.739153 -6.873454)
+			(mid 35.73914 -6.873455)
 			(end 35.752381 -6.785475)
 			(stroke
 				(width 0.001)
@@ -3765,7 +3815,7 @@
 		)
 		(fp_arc
 			(start 35.75 -9.802846)
-			(mid 35.734758 -9.726319)
+			(mid 35.73477 -9.726308)
 			(end 35.691418 -9.661424)
 			(stroke
 				(width 0.001)
@@ -3837,7 +3887,7 @@
 		)
 		(fp_line
 			(start -28.9 -23.275736)
-			(end 28.9 -23.275736)
+			(end -27.6 -23.275736)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -3854,6 +3904,46 @@
 			)
 			(layer "Edge.Cuts")
 			(uuid "dbe81bc2-8bda-4c23-946b-2d081431cab5")
+		)
+		(fp_line
+			(start -27.6 -23.275736)
+			(end -27.6 -22.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "547d760c-e370-4e19-b76b-9cd7f0bbb72a")
+		)
+		(fp_line
+			(start -26.6 -21.3)
+			(end -13.6 -21.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dea1695c-9d5a-40c1-8f3a-37c4a6ed585f")
+		)
+		(fp_line
+			(start -12.6 -23.3)
+			(end -12.6 -22.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "223cff3d-cb07-4587-8b19-8cc49d2f5eb7")
+		)
+		(fp_line
+			(start 28.9 -23.275736)
+			(end -12.6 -23.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7f8d6d27-6447-4b16-9e42-19f485bb4eba")
 		)
 		(fp_line
 			(start 29.7 -24)
@@ -3948,6 +4038,28 @@
 			)
 			(layer "Edge.Cuts")
 			(uuid "bcbe35c2-9b91-4143-a9f4-cae958d1d04d")
+		)
+		(fp_arc
+			(start -26.6 -21.3)
+			(mid -27.307107 -21.592893)
+			(end -27.6 -22.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7607d824-9b71-497d-95b6-0df284fc1d7b")
+		)
+		(fp_arc
+			(start -12.6 -22.3)
+			(mid -12.892893 -21.592893)
+			(end -13.6 -21.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3dd08f0a-cf24-4277-84cf-0dec15d52484")
 		)
 		(fp_arc
 			(start 28.9 -0.724264)
@@ -4355,16 +4467,6 @@
 		(uuid "0b0e88a4-73f9-4763-a8a6-aca3acc084b2")
 	)
 	(gr_line
-		(start 126.583 91.439)
-		(end 126.583 92.439)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "2a0ba6a7-c0b6-4f62-a5f1-fdedc23337c1")
-	)
-	(gr_line
 		(start 143.793 105.839)
 		(end 143.793 106.239)
 		(stroke
@@ -4407,16 +4509,6 @@
 		(uuid "8e5d3ddd-82c5-443b-9a19-76a7b8313703")
 	)
 	(gr_line
-		(start 141.583 91.439)
-		(end 141.583 92.439)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9ea53a47-1f22-4f01-8a16-008ec5cfdebf")
-	)
-	(gr_line
 		(start 145.093 107.539)
 		(end 151.493 107.539)
 		(stroke
@@ -4447,38 +4539,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "c707d8a6-6078-4c71-8b77-2f099574c220")
-	)
-	(gr_arc
-		(start 127.583 93.439)
-		(mid 126.875893 93.146107)
-		(end 126.583 92.439)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c7bec867-ac19-43f2-9a45-151590afa7bc")
-	)
-	(gr_arc
-		(start 141.583 92.439)
-		(mid 141.290107 93.146107)
-		(end 140.583 93.439)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d354153f-542b-4313-b43c-a96af10998a7")
-	)
-	(gr_line
-		(start 127.583 93.439)
-		(end 140.583 93.439)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f78d8f28-33fe-4506-8323-900e5eef9aac")
 	)
 	(gr_text "AllSerial WiFi Master 27/24"
 		(at 166.498 94.673 0)

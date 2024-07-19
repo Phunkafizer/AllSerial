@@ -652,4 +652,16 @@
 			(xyz 0 0 90)
 		)
 	)
+	(model "$(KICAD8_3RD_PARTY)/packages3d/Fischer AKG 71 24 100 bottom half.step"
+		(opacity 0.9000)
+		(offset
+			(xyz 35.75 55.3 1.85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
 )

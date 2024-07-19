@@ -470,7 +470,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "AllSerial TTL.step",
       "svg": "",
       "vrml": ""
     },

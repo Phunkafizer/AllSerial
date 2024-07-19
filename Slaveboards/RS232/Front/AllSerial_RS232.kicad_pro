@@ -259,7 +259,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "AllSerial_RS232.step",
       "svg": "",
       "vrml": ""
     },

@@ -256,7 +256,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "de68d70d-6c61-48bf-8fa0-55a4f1982cfc")
 	)
-	(model ":KICAD_3RD_PARTY_3D:Metz/3D_31182103.stp"
+	(model "$(KICAD8_3RD_PARTY)/packages3d/Metz/3D_31182103.stp"
 		(offset
 			(xyz -3.5 1.6 3)
 		)

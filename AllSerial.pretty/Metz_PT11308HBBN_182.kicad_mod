@@ -555,7 +555,7 @@
 		(remove_unused_layers no)
 		(uuid "67af76ce-1377-4e51-aff2-530e19010952")
 	)
-	(model "${KICAD_USER_3D_DIR}/Metz/31182108.stp"
+	(model "$(KICAD8_3RD_PARTY)/packages3d/Metz/31182108.stp"
 		(offset
 			(xyz -14 -1.6 3.1)
 		)
