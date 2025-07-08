@@ -1,10 +1,10 @@
 (footprint "Mentor 1296.2012"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.635 0.127 0)
+		(at 0.2 -2.3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "201804ff-b20d-4269-bee9-c1ec4cc0db99")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "81f7f75b-6cb6-4770-bd5d-6a9ea980d19f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -62,6 +50,26 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(fp_line
+		(start -1.6 0.7)
+		(end -1.6 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "dc837293-d27e-4ec7-ac2a-6bb751ac21e5")
+	)
+	(fp_line
+		(start 0.94 0.7)
+		(end 0.94 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d3c39819-7f3c-4cb5-a9b7-2a3e2546b4e3")
 	)
 	(fp_line
 		(start -4.36 -1.58)
@@ -134,24 +142,24 @@
 		(uuid "866c4121-1d8e-4167-a7f5-24dd032dcf88")
 	)
 	(fp_rect
-		(start -2.22 -0.4)
-		(end -0.32 0.4)
+		(start -2.55 -0.4)
+		(end -0.65 0.4)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8f3b71b9-61f6-4d79-9778-4f291c57981b")
 	)
 	(fp_rect
-		(start 0.32 -0.4)
-		(end 2.22 0.4)
+		(start 0 -0.4)
+		(end 1.9 0.4)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f47bd8aa-8bf7-465a-875a-1b1911f994fd")
 	)
@@ -181,4 +189,5 @@
 		(layers "*.Mask")
 		(uuid "2ecccd26-94c8-49cb-8157-6b3f1834509f")
 	)
+	(embedded_fonts no)
 )

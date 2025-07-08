@@ -69,8 +69,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 1.2 2.9)
-		(end -1.2 2.9)
+		(start 1.3 2.8)
+		(end -1.3 2.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -79,9 +79,9 @@
 		(uuid "ce694518-9a40-44a4-ae2e-a826affbd465")
 	)
 	(fp_arc
-		(start -1.499999 2.8)
-		(mid 0 -3.176476)
-		(end 1.5 2.8)
+		(start -1.564593 2.733962)
+		(mid 0 -3.15)
+		(end 1.564593 2.733962)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -90,26 +90,26 @@
 		(uuid "016d8601-1835-4e18-8890-e2f145d5c6b5")
 	)
 	(fp_arc
-		(start -1.2 2.9)
-		(mid -1.358114 2.874342)
-		(end -1.5 2.8)
+		(start -1.3 2.8)
+		(mid -1.436344 2.783256)
+		(end -1.564489 2.733768)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ead28447-1ac3-426a-b8dd-c26986838b66")
+		(uuid "c37111b3-22bf-4b00-86f4-f9d4b29c6f45")
 	)
 	(fp_arc
-		(start 1.5 2.8)
-		(mid 1.358114 2.874342)
-		(end 1.2 2.9)
+		(start 1.563941 2.733768)
+		(mid 1.436062 2.783189)
+		(end 1.3 2.8)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ce20dcf1-b7cf-4a97-ab42-cc71f7b961de")
+		(uuid "2cde935d-1af0-4a58-8107-02e04445c224")
 	)
 	(fp_circle
 		(center 0 0)
