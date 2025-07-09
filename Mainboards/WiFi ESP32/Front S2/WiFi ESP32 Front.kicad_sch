@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "3a5d0197-32a1-4754-b306-0c3e0609959a")
 	(paper "A4")
 	(lib_symbols
@@ -101,6 +101,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AllSerial_Front:SMA-Hole"
 			(exclude_from_sim no)
@@ -180,12 +181,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -276,6 +282,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -648,4 +655,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -5807,6 +5807,17 @@
 			(uuid "caa25ae1-8b88-4fff-9cfc-94de6502f15c")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3RD_PARTY}/packages3d/Mentor/1296.2012.stp"
+			(offset
+				(xyz 2.3 -1.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 90 -0)
+			)
+		)
 	)
 	(footprint "5_TTY:DIL06"
 		(layer "F.Cu")

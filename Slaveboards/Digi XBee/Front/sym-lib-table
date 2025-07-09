@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AllSerial")(type "KiCad")(uri "$(KIPRJMOD)/../../../AllSerial_Front.kicad_sym")(options "")(descr ""))
+)

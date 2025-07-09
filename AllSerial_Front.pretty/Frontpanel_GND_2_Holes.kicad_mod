@@ -1,7 +1,7 @@
 (footprint "Frontpanel_GND_2_Holes"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -20,18 +20,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "fa12f8a1-a4a3-498d-a59d-13aaa13c01ab")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d6b17f54-51a6-4bc6-8dd3-5775afaff61a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,6 +50,95 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(fp_rect
+		(start -31 -8.2)
+		(end -29 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "729326af-e94c-46f5-9b11-f24453b6b728")
+	)
+	(fp_rect
+		(start -21 -8.2)
+		(end -19 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "33a623b6-a605-40e6-b17b-525f299a015e")
+	)
+	(fp_rect
+		(start -11 -8.2)
+		(end -9 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "7ff8ee41-81f8-4e28-aefb-dc5081b26c7e")
+	)
+	(fp_rect
+		(start -1 -8.2)
+		(end 1 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "0ca9a29c-fe01-411c-a116-ae4974623ec2")
+	)
+	(fp_rect
+		(start 9 -8.2)
+		(end 11 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "ff95995b-d6c3-48c6-b7d6-ee5d0366170e")
+	)
+	(fp_rect
+		(start 19 -8.2)
+		(end 21 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "904af6b0-a4d5-44c0-83d7-00248a92e113")
+	)
+	(fp_rect
+		(start 29 -8.2)
+		(end 31 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "ed339901-4b9a-4596-aa83-d2b936a74f1a")
+	)
+	(fp_poly
+		(pts
+			(xy -33.8 -7.1) (xy 33.8 -7.1) (xy 33.8 -5.55) (xy -33.8 -5.55)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "becb4cfe-6c32-419c-9442-d72e6659703c")
 	)
 	(fp_line
 		(start -35.752381 -17.214525)
@@ -2645,18 +2722,6 @@
 	)
 	(fp_text user "AllSerial"
 		(at -33.75 -4 0)
-		(layer "F.Cu")
-		(uuid "31edf0e4-196e-455d-ba64-38f57301fd23")
-		(effects
-			(font
-				(size 1.1303 1.1303)
-				(thickness 0.1397)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "AllSerial"
-		(at -33.75 -4 0)
 		(layer "F.Mask")
 		(uuid "ba85ab52-896f-48e1-90da-69efe7633b64")
 		(effects
@@ -2685,4 +2750,5 @@
 		(solder_mask_margin 0.1016)
 		(uuid "faee80a0-5c05-4140-8c5b-b14d1d5d2577")
 	)
+	(embedded_fonts no)
 )

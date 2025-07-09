@@ -42,12 +42,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Red")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -67,6 +69,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Red")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -74,6 +77,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -109,7 +113,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -2304,6 +2307,17 @@
 			(uuid "237b8d45-a1dc-4c42-b2c3-151be5c9ff71")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3RD_PARTY}/packages3d/Mentor/1296.2012.stp"
+			(offset
+				(xyz 2.3 -1.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 90 -0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
@@ -5518,18 +5532,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 90)
+				(xyz -0 -0 90)
 			)
 		)
-		(model "${KICAD_USER_3D_DIR}/Fischer AKG 71 24 100 bottom half.step"
+		(model "../Front/AllSerial eBUS Front.step"
 			(offset
-				(xyz 35.8 44.8 1.85)
+				(xyz 0 44.8 -7.1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -180)
+				(xyz -90 -0 -180)
 			)
 		)
 	)
