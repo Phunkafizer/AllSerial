@@ -517,7 +517,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "FTDI master.step",
       "svg": "",
       "vrml": ""
     },

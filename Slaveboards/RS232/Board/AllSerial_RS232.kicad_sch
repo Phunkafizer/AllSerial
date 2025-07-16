@@ -2481,6 +2481,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "alt. ADM211"
+		(exclude_from_sim no)
+		(at 140.716 122.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "868c3b84-6a92-4f5d-b58d-21292c167ac0")
+	)
 	(junction
 		(at 88.9 33.02)
 		(diameter 0)
@@ -4546,7 +4556,6 @@
 					(size 1.4986 1.4986)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
