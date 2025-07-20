@@ -3674,7 +3674,7 @@
 				)
 			)
 		)
-		(path "/347e85e2-a03a-4a31-ba6e-3c8124706a41/00000000-0000-0000-0000-0000ee6a8c53")
+		(path "/347e85e2-a03a-4a31-ba6e-3c8124706a41/00000000-0000-0000-0000-0000ee6a8c5b")
 		(sheetname "/Interface/")
 		(sheetfile "interface.kicad_sch")
 		(attr through_hole dnp)
@@ -4875,7 +4875,7 @@
 				)
 			)
 		)
-		(path "/347e85e2-a03a-4a31-ba6e-3c8124706a41/00000000-0000-0000-0000-00003268440d")
+		(path "/347e85e2-a03a-4a31-ba6e-3c8124706a41/00000000-0000-0000-0000-00003268441d")
 		(sheetname "/Interface/")
 		(sheetfile "interface.kicad_sch")
 		(attr smd)
@@ -7590,7 +7590,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "22k"
 			(at 0 1.65 180)
 			(layer "F.Fab")
 			(uuid "3ad0ad22-1243-40fd-8c23-d263727e7430")
@@ -7627,7 +7627,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7804,7 +7804,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "22k"
 			(at 0 1.65 180)
 			(layer "F.Fab")
 			(uuid "dace1322-717d-471b-bd2e-1f65ff522392")
@@ -7841,7 +7841,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8018,7 +8018,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "22k"
 			(at 0 1.65 180)
 			(layer "F.Fab")
 			(uuid "46c831c5-06b3-49e5-a9b6-e07738a1514a")
@@ -8055,7 +8055,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8232,7 +8232,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "22k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "bed68438-3e8a-404d-bdf4-fc71dc4f6bdf")
@@ -8269,7 +8269,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9894,7 +9894,7 @@
 				)
 			)
 		)
-		(path "/347e85e2-a03a-4a31-ba6e-3c8124706a41/00000000-0000-0000-0000-0000f533e675")
+		(path "/347e85e2-a03a-4a31-ba6e-3c8124706a41/00000000-0000-0000-0000-0000f533e679")
 		(sheetname "/Interface/")
 		(sheetfile "interface.kicad_sch")
 		(attr smd)
@@ -12207,7 +12207,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "22k"
 			(at 0 1.65 180)
 			(layer "F.Fab")
 			(uuid "ed1309bb-d7af-423e-a797-022c09dccdb7")
@@ -12244,7 +12244,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16502,7 +16502,7 @@
 		)
 	)
 	(gr_text "${TITLE} ${REVISION} - ${ISSUE_DATE}"
-		(at 116.59 86.9 90)
+		(at 117.79 87 90)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-00001bcec790")
 		(effects

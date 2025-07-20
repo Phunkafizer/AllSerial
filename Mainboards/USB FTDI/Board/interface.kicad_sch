@@ -2500,6 +2500,12 @@
 		)
 	)
 	(junction
+		(at 135.89 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11b36656-82d5-4179-b82d-2dc0b7468d69")
+	)
+	(junction
 		(at 110.49 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2614,12 +2620,6 @@
 		(uuid "9d2d830d-3717-4c25-84b7-85f1983615d8")
 	)
 	(junction
-		(at 143.51 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab695620-25da-4891-8531-71453ceb8d34")
-	)
-	(junction
 		(at 74.93 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2644,6 +2644,12 @@
 		(uuid "ba30ff62-0b01-4b33-a0a5-5ff1ae545942")
 	)
 	(junction
+		(at 143.51 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef6bbc5-4f77-4ac7-ab44-972464017a77")
+	)
+	(junction
 		(at 67.31 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2654,12 +2660,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdb39a68-8fe1-480e-860e-a71ec9bd3c49")
-	)
-	(junction
-		(at 135.89 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da952b64-e5dc-4a3d-a0e1-c8febb6514e7")
 	)
 	(junction
 		(at 67.31 39.37)
@@ -2766,16 +2766,6 @@
 			(type default)
 		)
 		(uuid "0a96b1bc-00de-4b01-8460-0054b8045b9a")
-	)
-	(wire
-		(pts
-			(xy 67.31 77.47) (xy 67.31 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d154cab-1685-46b6-b1ee-2a57d7b0d81d")
 	)
 	(wire
 		(pts
@@ -2979,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 62.23) (xy 135.89 44.45)
+			(xy 135.89 36.83) (xy 135.89 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2996,6 +2986,16 @@
 			(type default)
 		)
 		(uuid "3659eb52-ff6c-4f9f-ad5e-f724c64f594f")
+	)
+	(wire
+		(pts
+			(xy 135.89 44.45) (xy 135.89 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d50565f-f075-492e-b923-533e82b17469")
 	)
 	(wire
 		(pts
@@ -3046,6 +3046,26 @@
 			(type default)
 		)
 		(uuid "465bd145-ca57-4652-afd9-71700ad1f365")
+	)
+	(wire
+		(pts
+			(xy 63.5 26.67) (xy 67.31 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466b2cd9-332d-45a3-a9e6-6b0bd00910b1")
+	)
+	(wire
+		(pts
+			(xy 63.5 54.61) (xy 67.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492afc6f-5d0d-4ca5-81eb-35dfbfa922b7")
 	)
 	(wire
 		(pts
@@ -3339,6 +3359,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 82.55) (xy 67.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d2b121-7e39-4929-88b1-1e75455ac3cb")
+	)
+	(wire
+		(pts
 			(xy 115.57 26.67) (xy 118.11 26.67)
 		)
 		(stroke
@@ -3346,16 +3376,6 @@
 			(type default)
 		)
 		(uuid "7a627250-ba05-4cf0-9dce-d42736fd1ae5")
-	)
-	(wire
-		(pts
-			(xy 67.31 49.53) (xy 67.31 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a76c987-489e-4efb-bd59-b6ac4c54e3b7")
 	)
 	(wire
 		(pts
@@ -3489,6 +3509,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 41.91) (xy 143.51 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943c1153-ca8e-40e3-9540-cc663459b647")
+	)
+	(wire
+		(pts
 			(xy 115.57 82.55) (xy 118.11 82.55)
 		)
 		(stroke
@@ -3529,23 +3559,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 62.23) (xy 143.51 41.91)
+			(xy 143.51 26.67) (xy 143.51 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9ddcac54-d34c-45c4-aae6-0211da4a1137")
-	)
-	(wire
-		(pts
-			(xy 161.29 41.91) (xy 143.51 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e59acbd-c8a3-4ae3-8204-237deaef8a04")
 	)
 	(wire
 		(pts
@@ -3626,16 +3646,6 @@
 			(type default)
 		)
 		(uuid "a70692c6-502e-49b4-ac46-04fa51c89594")
-	)
-	(wire
-		(pts
-			(xy 135.89 44.45) (xy 135.89 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab40e461-06d7-4b83-a55d-dc1a0226e363")
 	)
 	(wire
 		(pts
@@ -3829,6 +3839,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 41.91) (xy 161.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd676609-9c7c-4449-8687-1a3275669039")
+	)
+	(wire
+		(pts
 			(xy 110.49 34.29) (xy 110.49 29.21)
 		)
 		(stroke
@@ -3869,6 +3889,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 44.45) (xy 161.29 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1036291-d09c-4f95-94cb-3eee5b46369c")
+	)
+	(wire
+		(pts
 			(xy 110.49 57.15) (xy 107.95 57.15)
 		)
 		(stroke
@@ -3906,16 +3936,6 @@
 			(type default)
 		)
 		(uuid "e5f7a19f-a999-4d85-9a78-b1e8a4cb5298")
-	)
-	(wire
-		(pts
-			(xy 161.29 44.45) (xy 135.89 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e71b4edb-1133-4e36-b250-60725b5c146e")
 	)
 	(wire
 		(pts
@@ -3999,7 +4019,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 62.23) (xy 148.59 39.37)
+			(xy 148.59 39.37) (xy 148.59 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4059,16 +4079,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 21.59) (xy 67.31 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fac2c5e2-67f9-4da3-b2b2-f87170e67bcf")
-	)
-	(wire
-		(pts
 			(xy 125.73 153.67) (xy 105.41 153.67)
 		)
 		(stroke
@@ -4076,16 +4086,6 @@
 			(type default)
 		)
 		(uuid "faffaaf1-f3a8-43a8-a6f1-e6364a0c7342")
-	)
-	(wire
-		(pts
-			(xy 143.51 26.67) (xy 143.51 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb9cb862-ddec-4479-adcb-aaf3ec27f1b8")
 	)
 	(label "GND1"
 		(at 156.21 151.13 0)
@@ -4108,7 +4108,7 @@
 		(uuid "1aaf9d45-9a40-4b2e-a698-8aa8bf9ae2ec")
 	)
 	(label "+5V"
-		(at 67.31 80.01 0)
+		(at 63.5 82.55 0)
 		(effects
 			(font
 				(size 0.254 0.254)
@@ -4208,7 +4208,7 @@
 		(uuid "91829318-88d0-42f7-8eba-d0dd41d7ea13")
 	)
 	(label "+5V"
-		(at 67.31 52.07 0)
+		(at 63.5 54.61 0)
 		(effects
 			(font
 				(size 0.254 0.254)
@@ -4268,7 +4268,7 @@
 		(uuid "f3428b00-617c-4eac-9ca5-1288baeec91c")
 	)
 	(label "+5V"
-		(at 67.31 24.13 0)
+		(at 63.5 26.67 0)
 		(effects
 			(font
 				(size 0.254 0.254)
@@ -4537,8 +4537,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
-			(at 152.4 147.32 90)
+		(property "Value" "22k"
+			(at 154.178 148.844 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -4573,7 +4573,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at 156.21 146.05 0)
 			(effects
 				(font
@@ -5430,8 +5430,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
-			(at 137.16 147.32 90)
+		(property "Value" "22k"
+			(at 138.938 148.844 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -5466,7 +5466,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at 140.97 146.05 0)
 			(effects
 				(font
@@ -5968,7 +5968,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 67.31 49.53 0)
+		(at 63.5 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5976,7 +5976,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004d46f757")
 		(property "Reference" "#P+011"
-			(at 67.31 49.53 0)
+			(at 63.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,7 +5985,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 64.77 54.61 90)
+			(at 63.246 51.308 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -5994,7 +5994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 49.53 0)
+			(at 63.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +6003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 49.53 0)
+			(at 63.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +6012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 49.53 0)
+			(at 63.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6532,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 67.31 77.47 0)
+		(at 63.5 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6540,7 +6540,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000bc83e68f")
 		(property "Reference" "#P+012"
-			(at 67.31 77.47 0)
+			(at 63.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,7 +6549,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 64.77 82.55 90)
+			(at 63.5 79.502 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -6558,7 +6558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 77.47 0)
+			(at 63.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 77.47 0)
+			(at 63.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6576,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 77.47 0)
+			(at 63.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,8 +6680,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
-			(at 142.24 147.32 90)
+		(property "Value" "22k"
+			(at 144.018 148.844 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -6716,7 +6716,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at 146.05 146.05 0)
 			(effects
 				(font
@@ -6952,7 +6952,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 67.31 21.59 0)
+		(at 63.5 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6960,7 +6960,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000e32dc4a8")
 		(property "Reference" "#P+08"
-			(at 67.31 21.59 0)
+			(at 63.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +6969,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 64.77 26.67 90)
+			(at 63.5 23.622 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -6978,7 +6978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 21.59 0)
+			(at 63.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6987,7 +6987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 21.59 0)
+			(at 63.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +6996,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 21.59 0)
+			(at 63.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,8 +7034,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
-			(at 147.32 147.32 90)
+		(property "Value" "22k"
+			(at 149.098 148.844 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -7070,7 +7070,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at 151.13 146.05 0)
 			(effects
 				(font
@@ -7096,7 +7096,7 @@
 	)
 	(symbol
 		(lib_id "FTDI_master-eagle-import:AKL18X-04W")
-		(at 135.89 64.77 270)
+		(at 135.89 67.31 270)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7104,7 +7104,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000ee6a8c4f")
 		(property "Reference" "X2"
-			(at 135.128 67.31 0)
+			(at 135.128 69.85 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -7113,7 +7113,7 @@
 			)
 		)
 		(property "Value" "AKL18X-04W"
-			(at 135.89 64.77 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,7 +7122,7 @@
 			)
 		)
 		(property "Footprint" "AllSerial:Metz_PT11304HBBN_182"
-			(at 135.89 64.77 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 64.77 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7140,7 +7140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 64.77 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +7171,7 @@
 	)
 	(symbol
 		(lib_id "FTDI_master-eagle-import:AKL18X-04W")
-		(at 143.51 64.77 270)
+		(at 143.51 67.31 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7179,7 +7179,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000ee6a8c53")
 		(property "Reference" "X2"
-			(at 142.748 67.31 0)
+			(at 142.748 69.85 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -7188,7 +7188,7 @@
 			)
 		)
 		(property "Value" "AKL18X-04W"
-			(at 143.51 64.77 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7197,7 @@
 			)
 		)
 		(property "Footprint" "AllSerial:Metz_PT11304HBBN_182"
-			(at 143.51 64.77 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 64.77 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7215,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 64.77 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7246,7 @@
 	)
 	(symbol
 		(lib_id "FTDI_master-eagle-import:AKL18X-04W")
-		(at 148.59 64.77 270)
+		(at 148.59 67.31 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7254,7 +7254,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000ee6a8c57")
 		(property "Reference" "X2"
-			(at 147.828 67.31 0)
+			(at 147.828 69.85 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -7263,7 +7263,7 @@
 			)
 		)
 		(property "Value" "AKL18X-04W"
-			(at 148.59 64.77 0)
+			(at 148.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7272,7 @@
 			)
 		)
 		(property "Footprint" "AllSerial:Metz_PT11304HBBN_182"
-			(at 148.59 64.77 0)
+			(at 148.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +7281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 64.77 0)
+			(at 148.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +7290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 64.77 0)
+			(at 148.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8622,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "22k"
 			(at 134.62 105.41 90)
 			(effects
 				(font
@@ -8658,7 +8658,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at 133.35 105.41 0)
 			(effects
 				(font

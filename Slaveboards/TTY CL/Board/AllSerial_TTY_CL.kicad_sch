@@ -5928,7 +5928,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "180k"
 			(at 129.54 59.69 90)
 			(effects
 				(font
@@ -5964,7 +5964,7 @@
 				(hide yes)
 			)
 		)
-		(property "FARNELL" "2498051"
+		(property "FARNELL" ""
 			(at 125.73 57.15 0)
 			(effects
 				(font
@@ -6993,7 +6993,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "1k2"
 			(at 93.98 127 90)
 			(effects
 				(font
@@ -7029,7 +7029,7 @@
 				(hide yes)
 			)
 		)
-		(property "FARNELL" "2498050"
+		(property "FARNELL" ""
 			(at 92.71 129.54 0)
 			(effects
 				(font

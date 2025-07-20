@@ -247,17 +247,6 @@
 			(uuid "062c236e-da76-4f7f-826b-bb9c1873b664")
 		)
 		(fp_rect
-			(start -1 -8.2)
-			(end 1 -7.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Cu")
-			(uuid "6a52c8cb-ae4e-4113-869b-aa9a8a195300")
-		)
-		(fp_rect
 			(start -1 -5.5)
 			(end 1 -4.5)
 			(stroke
@@ -368,7 +357,7 @@
 			(uuid "fe051a90-04da-4861-ad46-962247dea380")
 		)
 		(fp_rect
-			(start -1 -8.2)
+			(start -1 -5.6)
 			(end 1 -4.5)
 			(stroke
 				(width 0.1)
