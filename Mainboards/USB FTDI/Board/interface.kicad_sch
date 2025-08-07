@@ -4835,7 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 128.27 0)
 			(effects
 				(font
@@ -4862,7 +4862,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 128.27 0)
 			(effects
 				(font
@@ -4956,7 +4956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 143.51 0)
 			(effects
 				(font
@@ -4983,7 +4983,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 143.51 0)
 			(effects
 				(font
@@ -5077,7 +5077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 113.03 0)
 			(effects
 				(font
@@ -5104,7 +5104,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 113.03 0)
 			(effects
 				(font
@@ -5198,7 +5198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 163.83 0)
 			(effects
 				(font
@@ -5225,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 163.83 0)
 			(effects
 				(font
@@ -5319,7 +5319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 34.29 0)
 			(effects
 				(font
@@ -5346,7 +5346,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 34.29 0)
 			(effects
 				(font
@@ -7422,7 +7422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 158.75 0)
 			(effects
 				(font
@@ -7449,7 +7449,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 158.75 0)
 			(effects
 				(font
@@ -7543,7 +7543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 123.19 0)
 			(effects
 				(font
@@ -7570,7 +7570,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 123.19 0)
 			(effects
 				(font
@@ -7664,7 +7664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -7691,7 +7691,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -7785,7 +7785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 148.59 0)
 			(effects
 				(font
@@ -7812,7 +7812,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 148.59 0)
 			(effects
 				(font
@@ -7906,7 +7906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 138.43 0)
 			(effects
 				(font
@@ -7933,7 +7933,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 138.43 0)
 			(effects
 				(font
@@ -8027,7 +8027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 168.91 0)
 			(effects
 				(font
@@ -8054,7 +8054,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 168.91 0)
 			(effects
 				(font
@@ -8148,7 +8148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 118.11 0)
 			(effects
 				(font
@@ -8175,7 +8175,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 118.11 0)
 			(effects
 				(font
@@ -8269,7 +8269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 133.35 0)
 			(effects
 				(font
@@ -8296,7 +8296,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 133.35 0)
 			(effects
 				(font
@@ -8390,7 +8390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 153.67 0)
 			(effects
 				(font
@@ -8417,7 +8417,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 153.67 0)
 			(effects
 				(font
@@ -8511,7 +8511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -8538,7 +8538,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C208656"
+		(property "LCSC" "C660448"
 			(at 92.71 62.23 0)
 			(effects
 				(font

@@ -517,7 +517,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "FTDI master.step",
+      "step": "FTDI master.stl",
       "svg": "",
       "vrml": ""
     },
@@ -606,7 +606,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

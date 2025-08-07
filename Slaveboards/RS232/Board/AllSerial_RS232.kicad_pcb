@@ -3191,7 +3191,7 @@
 		(descr "28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
 		(tags "SSOP 0.65")
 		(property "Reference" "IC1"
-			(at 0 -6.25 270)
+			(at 0 -6.25 90)
 			(layer "F.SilkS")
 			(uuid "45d0892c-387f-4236-8c6b-ab89c0caab9f")
 			(effects
@@ -3202,7 +3202,7 @@
 			)
 		)
 		(property "Value" "MAX211CDB"
-			(at 0 6.25 270)
+			(at 0 6.25 90)
 			(layer "F.Fab")
 			(uuid "b3c9cb3c-204a-4dc0-9c22-3d5fea2875a1")
 			(effects
@@ -3213,7 +3213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9f69db0-626c-4908-b8d8-fcc7faabc46e")
@@ -3225,7 +3225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "477c504c-ce9c-4bed-a441-4f939a09956d")
@@ -3247,37 +3247,27 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "678eb76d-3675-432a-91dd-239f4f29eb74")
+			(uuid "8e113497-25dd-4dde-90f7-64634f857fe5")
 		)
 		(fp_line
-			(start -2.875 5.325)
-			(end -2.875 4.675)
+			(start -2.875 4.75)
+			(end -2.875 5.325)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ad5ca862-803a-4b6f-bb81-4e336232d824")
+			(uuid "eb0eb9b8-fefd-427b-ac15-37f9a2d870bd")
 		)
 		(fp_line
-			(start 2.875 5.325)
-			(end 2.875 4.675)
+			(start 2.875 4.75)
+			(end 2.875 5.325)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "501d2c10-4a93-4700-ab09-5f8f6d0ae1bc")
-		)
-		(fp_line
-			(start -2.875 -4.75)
-			(end -4.475 -4.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ab93a372-35a8-487e-bc0d-76b1afc15da8")
+			(uuid "98df6ec6-9263-464c-8a1a-d755e2a79694")
 		)
 		(fp_line
 			(start -2.875 -5.325)
@@ -3287,7 +3277,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7732539c-1c99-42e7-bd78-d0d5adac9baa")
+			(uuid "29611ad3-9248-4a68-b09d-b16bce26c844")
 		)
 		(fp_line
 			(start -2.875 -5.325)
@@ -3297,17 +3287,29 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3e8e0e84-ac54-49ca-af88-9aaa16677c61")
+			(uuid "1883d22a-e385-4f2c-a044-f85059a8d587")
 		)
 		(fp_line
 			(start 2.875 -5.325)
-			(end 2.875 -4.675)
+			(end 2.875 -4.75)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bee94f1e-b032-4c87-94e8-3fae616d8351")
+			(uuid "11caf7a8-66d6-4360-ba54-7fe770064d65")
+		)
+		(fp_poly
+			(pts
+				(xy -3.375 -4.75) (xy -3.615 -5.08) (xy -3.135 -5.08) (xy -3.375 -4.75)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "12a66c75-4515-40f2-93b8-8d408323bdf3")
 		)
 		(fp_line
 			(start -4.75 5.5)
@@ -3317,7 +3319,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9e6c5b0c-0615-4e5b-bd06-e87aa7aaa88b")
+			(uuid "17531fff-ceb7-4902-9463-a0d12125d0ac")
 		)
 		(fp_line
 			(start -4.75 -5.5)
@@ -3327,7 +3329,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "aa466ed4-ad98-47b2-af3e-f604f62f456e")
+			(uuid "dad20927-3232-42af-8ca2-2f8fb5017c1a")
 		)
 		(fp_line
 			(start -4.75 -5.5)
@@ -3337,7 +3339,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ee4cd7ff-8167-4da4-80ca-0842d1f0e86c")
+			(uuid "527d706d-8a55-439a-98a8-44c88191c2a5")
 		)
 		(fp_line
 			(start 4.75 -5.5)
@@ -3347,7 +3349,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "afa79154-7ebf-4a91-8902-4766da99a226")
+			(uuid "41ce2ca3-9441-41d1-904d-35d88f8d84d4")
 		)
 		(fp_line
 			(start -2.65 5.1)
@@ -3357,7 +3359,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a754ee2b-9aa2-4119-8bcf-0c40a5138dab")
+			(uuid "cbf12ecd-2c09-449f-a6d0-c6c2226596ea")
 		)
 		(fp_line
 			(start 2.65 5.1)
@@ -3367,7 +3369,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "60ffc1ce-ec2f-4197-b222-5f6c146e8a88")
+			(uuid "b6954537-ca9b-49e6-a231-bd1f1b24f947")
 		)
 		(fp_line
 			(start -2.65 -4.1)
@@ -3377,7 +3379,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f4c88c53-c7e9-4c35-a422-b47be0642232")
+			(uuid "5d2639a0-6eda-4bc3-ab1e-dbda4821ff9f")
 		)
 		(fp_line
 			(start -1.65 -5.1)
@@ -3387,7 +3389,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "744dee68-e7bb-4939-9e73-b961b255dcd4")
+			(uuid "96c9fdfb-21fb-40a4-9281-3eb198c9a4eb")
 		)
 		(fp_line
 			(start 2.65 -5.1)
@@ -3397,10 +3399,10 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1517c99a-4037-46fa-bb9e-338515077e0a")
+			(uuid "9a6bc3df-fd1b-4219-8ace-7a3300ad839f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "c353dfbb-c17e-4246-9822-542b9a000524")
 			(effects
@@ -3663,7 +3665,7 @@
 			(uuid "508f332d-c76e-4a72-a275-786a68a24ca9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-28_5.3x10.2mm_P0.65mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-28_5.3x10.2mm_P0.65mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4371,7 +4373,7 @@
 		(descr "Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x05 2.54mm double row")
 		(property "Reference" "X3"
-			(at -2.651 -6.4189 90)
+			(at -2.901 -6.1189 90)
 			(layer "F.SilkS")
 			(uuid "c1004740-9253-4aa4-8296-f001e8055c3b")
 			(effects
@@ -4739,42 +4741,6 @@
 			(layer "F.Fab")
 			(uuid "2ce062b5-165d-4c28-a9ec-520951f8f850")
 		)
-		(fp_text user "10"
-			(at -1.016 4.064 90)
-			(layer "F.SilkS")
-			(uuid "085e09cb-78d1-4b8c-b23f-98573f45710c")
-			(effects
-				(font
-					(size 1.2065 1.2065)
-					(thickness 0.127)
-				)
-				(justify right bottom)
-			)
-		)
-		(fp_text user "2"
-			(at 6.349 -0.9189 90)
-			(layer "F.SilkS")
-			(uuid "c26b4327-17d4-44e9-a777-23b671a2f62e")
-			(effects
-				(font
-					(size 1.2065 1.2065)
-					(thickness 0.127)
-				)
-				(justify right bottom)
-			)
-		)
-		(fp_text user "1"
-			(at -4.901 -2.6689 90)
-			(layer "F.SilkS")
-			(uuid "c73126db-ed63-469d-8bb3-5e4c4ad0c6fa")
-			(effects
-				(font
-					(size 1.2065 1.2065)
-					(thickness 0.127)
-				)
-				(justify right bottom)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 1.27 5.08 0)
 			(layer "F.Fab")
@@ -4935,7 +4901,7 @@
 		)
 	)
 	(gr_text "1"
-		(at 159.9311 96.2886 180)
+		(at 160.2 96 180)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-0000176586d0")
 		(effects
@@ -4971,7 +4937,7 @@
 		)
 	)
 	(gr_text "2"
-		(at 159.9311 98.8286 180)
+		(at 160.3 98.5 180)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-000017659d50")
 		(effects
