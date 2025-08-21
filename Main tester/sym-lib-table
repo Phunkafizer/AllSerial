@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "3_RS232-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/3_RS232-eagle-import.lib")(options "")(descr "")(disabled))
+  (lib (name "MainTester-rescue")(type "KiCad")(uri "${KIPRJMOD}/MainTester-rescue.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "AllSerial")(type "KiCad")(uri "${KIPRJMOD}/../AllSerial.kicad_sym")(options "")(descr ""))
+)

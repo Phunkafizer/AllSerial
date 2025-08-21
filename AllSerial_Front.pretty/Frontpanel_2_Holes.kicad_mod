@@ -54,7 +54,7 @@
 	(attr through_hole)
 	(fp_rect
 		(start -31 -8.2)
-		(end -29 -7.2)
+		(end -29 -7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -64,7 +64,7 @@
 		(uuid "fb36b1cf-5383-4751-b3d5-457446b2f16b")
 	)
 	(fp_rect
-		(start -31 -5.5)
+		(start -31 -5.6)
 		(end -29 -4.5)
 		(stroke
 			(width 0.1)
@@ -76,7 +76,7 @@
 	)
 	(fp_rect
 		(start -21 -8.2)
-		(end -19 -7.2)
+		(end -19 -7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -86,7 +86,7 @@
 		(uuid "a6eba88a-72f0-4301-abb7-d9755ef02711")
 	)
 	(fp_rect
-		(start -21 -5.5)
+		(start -21 -5.6)
 		(end -19 -4.5)
 		(stroke
 			(width 0.1)
@@ -98,7 +98,7 @@
 	)
 	(fp_rect
 		(start -11 -8.2)
-		(end -9 -7.2)
+		(end -9 -7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -108,7 +108,7 @@
 		(uuid "0eadb77b-b445-404f-9c6d-8225f5dc3f32")
 	)
 	(fp_rect
-		(start -11 -5.5)
+		(start -11 -5.6)
 		(end -9 -4.5)
 		(stroke
 			(width 0.1)
@@ -120,7 +120,7 @@
 	)
 	(fp_rect
 		(start -1 -8.2)
-		(end 1 -7.2)
+		(end 1 -7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -130,7 +130,7 @@
 		(uuid "1839ffec-b66c-4567-b691-ecc4e6a852af")
 	)
 	(fp_rect
-		(start -1 -5.5)
+		(start -1 -5.6)
 		(end 1 -4.5)
 		(stroke
 			(width 0.1)
@@ -142,7 +142,7 @@
 	)
 	(fp_rect
 		(start 9 -8.2)
-		(end 11 -7.2)
+		(end 11 -7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -152,7 +152,7 @@
 		(uuid "dbd955ce-a9b3-4550-8a19-aeb6aea2b6f3")
 	)
 	(fp_rect
-		(start 9 -5.5)
+		(start 9 -5.6)
 		(end 11 -4.5)
 		(stroke
 			(width 0.1)
@@ -164,7 +164,7 @@
 	)
 	(fp_rect
 		(start 19 -8.2)
-		(end 21 -7.2)
+		(end 21 -7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -174,7 +174,7 @@
 		(uuid "e54211d9-e5dc-4da0-a924-3120410ae423")
 	)
 	(fp_rect
-		(start 19 -5.5)
+		(start 19 -5.6)
 		(end 21 -4.5)
 		(stroke
 			(width 0.1)
@@ -186,7 +186,7 @@
 	)
 	(fp_rect
 		(start 29 -8.2)
-		(end 31 -7.2)
+		(end 31 -7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -196,7 +196,7 @@
 		(uuid "aa6d991a-b3c3-407d-b825-fd7e2de11b2a")
 	)
 	(fp_rect
-		(start 29 -5.5)
+		(start 29 -5.6)
 		(end 31 -4.5)
 		(stroke
 			(width 0.1)

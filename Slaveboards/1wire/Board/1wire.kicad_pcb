@@ -2604,8 +2604,8 @@
 				(xyz 0 0 90)
 			)
 		)
-		(model "${KICAD_USER_3D_DIR}/Fischer AKG 71 24 100 bottom half.step"
-			(opacity 0.8100)
+		(model "${KICAD9_3RD_PARTY}/packages3d/Fischer AKG 71 24 100 bottom half.step"
+			(opacity 0.3000)
 			(offset
 				(xyz 35.8 44.8 1.85)
 			)
