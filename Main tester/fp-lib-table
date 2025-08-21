@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Main Tester")(type "KiCad")(uri "${KIPRJMOD}/Main Tester.pretty")(options "")(descr "")(disabled))
+  (lib (name "AllSerial")(type "KiCad")(uri "${KIPRJMOD}/../AllSerial.pretty")(options "")(descr ""))
+)
